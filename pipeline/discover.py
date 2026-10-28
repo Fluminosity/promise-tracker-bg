@@ -20,7 +20,7 @@ PROMISE_HINT = re.compile(
     r"(обещ|ще\s|гарантир|ангажир|предлага|настоява|ултиматум|няма да\s|твърдо)", re.IGNORECASE | re.UNICODE
 )
 TOPICS = ["prices", "justice", "corruption", "eu_funds", "eu_nato", "budget", "euro", "tax", "energy",
-          "governance", "security", "foreign", "infrastructure", "social", "other"]
+          "governance", "security", "foreign", "infrastructure", "health", "defence", "social", "other"]
 
 SYSTEM = """You review ONE news headline from Bulgaria.
 Decide whether it reports a concrete, checkable commitment or pledge made by one of the listed politicians:

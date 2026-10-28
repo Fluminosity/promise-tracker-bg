@@ -17,7 +17,8 @@
     reversal: 'Смяна на позицията', context: 'Контекст' };
   const TOPIC = { prices: 'Цени', justice: 'Правосъдие', corruption: 'Корупция', eu_funds: 'Европейски средства',
     eu_nato: 'ЕС и НАТО', budget: 'Бюджет', euro: 'Евро', tax: 'Данъци', energy: 'Енергетика', governance: 'Управление',
-    security: 'Сигурност', foreign: 'Външна политика', social: 'Социална политика', other: 'Друго' };
+    security: 'Сигурност', foreign: 'Външна политика', social: 'Социална политика', infrastructure: 'Инфраструктура',
+    health: 'Здравеопазване', defence: 'Отбрана', other: 'Друго' };
   const MONTHS = ['януари', 'февруари', 'март', 'април', 'май', 'юни', 'юли', 'август', 'септември', 'октомври', 'ноември', 'декември'];
 
   const people = Object.fromEntries(D.politicians.map(p => [p.id, p]));

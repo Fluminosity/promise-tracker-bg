@@ -194,5 +194,104 @@
         "url": "https://www.bta.bg/en/news/1175157-continue-the-change-would-back-andrey-gurov-for-president"
       }
     ]
+  },
+  {
+    "id": "donev",
+    "name": "Галъб Донев",
+    "role": "Министър на финансите",
+    "party": "Кабинет на Радев",
+    "party_short": "Кабинет",
+    "seats": null,
+    "bio": "Министър на финансите в кабинета на Радев; бивш служебен министър-председател (2022–2023 г.).",
+    "aliases": [
+      "Галъб Донев",
+      "Донев",
+      "Galab Donev"
+    ],
+    "news_queries": [
+      "Галъб Донев",
+      "министър Донев бюджет"
+    ],
+    "bio_sources": [
+      {
+        "title": "Radev sets out plans for new Bulgarian government after election win",
+        "publisher": "Reuters (чрез Internazionale)",
+        "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/05/07/radev-sets-out-plans-for-new-bulgarian-government-after-election-win"
+      }
+    ]
+  },
+  {
+    "id": "shishkov",
+    "name": "Иван Шишков",
+    "role": "Министър на регионалното развитие",
+    "party": "Кабинет на Радев",
+    "party_short": "Кабинет",
+    "seats": null,
+    "bio": "Министър на регионалното развитие в кабинета на Радев; отговаря за пътното строителство, вкл. АМ „Хемус“.",
+    "aliases": [
+      "Иван Шишков",
+      "Шишков",
+      "Ivan Shishkov"
+    ],
+    "news_queries": [
+      "Иван Шишков",
+      "министър Шишков магистрала"
+    ],
+    "bio_sources": [
+      {
+        "title": "Reactions to government programme",
+        "publisher": "BTA",
+        "url": "https://www.bta.bg/en/news/bulgaria/1185564-regional-development-minister-compares-previous-government-programmes-with-pre-d"
+      }
+    ]
+  },
+  {
+    "id": "efremova",
+    "name": "Наталия Ефремова",
+    "role": "Министър на труда и социалната политика",
+    "party": "Кабинет на Радев",
+    "party_short": "Кабинет",
+    "seats": null,
+    "bio": "Министър на труда и социалната политика в кабинета на Радев.",
+    "aliases": [
+      "Наталия Ефремова",
+      "Ефремова",
+      "Natalia Efremova",
+      "Nataliya Efremova"
+    ],
+    "news_queries": [
+      "Наталия Ефремова",
+      "министър Ефремова помощи заплата"
+    ],
+    "bio_sources": [
+      {
+        "title": "Draft 2027 Budget Envisages Social Benefit Increases of 16% to 56%",
+        "publisher": "BTA",
+        "url": "https://www.bta.bg/en/news/bulgaria/1226016-draft-2027-budget-envisages-social-benefit-increases-of-16-to-56-"
+      }
+    ]
+  },
+  {
+    "id": "stoyanov",
+    "name": "Димитър Стоянов",
+    "role": "Министър на отбраната",
+    "party": "Кабинет на Радев",
+    "party_short": "Кабинет",
+    "seats": null,
+    "bio": "Министър на отбраната в кабинета на Радев.",
+    "aliases": [
+      "Димитър Стоянов",
+      "Dimitar Stoyanov"
+    ],
+    "news_queries": [
+      "Димитър Стоянов министър отбраната"
+    ],
+    "bio_sources": [
+      {
+        "title": "Bulgaria's new government says it will not provide arms for Ukraine",
+        "publisher": "Reuters (чрез Internazionale)",
+        "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/06/09/bulgaria-s-new-government-says-it-will-not-provide-arms-for-ukraine"
+      }
+    ]
   }
 ]

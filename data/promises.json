@@ -5355,6 +5355,26 @@
         "origin": "auto",
         "model": "qwen3:8b",
         "added": "2026-10-28T21:02:36+02:00"
+      },
+      {
+        "id": "e-tax-2",
+        "date": "2026-10-15",
+        "title": "Bulgaria Plans Higher Public Wages Without Raising Main Taxes",
+        "publisher": "Novinite",
+        "url": "https://www.novinite.com/view_news.php?id=241065",
+        "relation": "progress",
+        "note": "Радев на 15 октомври: проектът „не предвижда увеличение на основните данъци“.",
+        "origin": "seed"
+      },
+      {
+        "id": "e-tax-3",
+        "date": null,
+        "title": "Asen Vasilev accuses cabinet of hiding 2027 budget and breaking the law",
+        "publisher": "Burgasmedia",
+        "url": "https://burgasmedia.com/news/asen-vasilev-obvini-kabineta-che-krie-byudzheta-za-2027-g-i-narushava-zakona?lang=en",
+        "relation": "context",
+        "note": "Асен Василев твърди, че проектът носи над 2 млрд. евро нови данъци. Твърдение на опонент, не е проверено.",
+        "origin": "seed"
       }
     ],
     "status_history": []
@@ -5537,6 +5557,16 @@
         "origin": "auto",
         "model": "qwen3:8b",
         "added": "2026-10-28T21:02:45+02:00"
+      },
+      {
+        "id": "e-def-4",
+        "date": "2026-10-15",
+        "title": "Bulgaria Plans Higher Public Wages Without Raising Main Taxes",
+        "publisher": "Novinite",
+        "url": "https://www.novinite.com/view_news.php?id=241065",
+        "relation": "context",
+        "note": "Радев: по-малък дефицит и по-малко нов дълг в номинално изражение от 2026 и 2025 г.",
+        "origin": "seed"
       }
     ],
     "status_history": []
@@ -6259,6 +6289,719 @@
         "added": "2026-10-28T21:05:48+02:00"
       }
     ],
+    "status_history": []
+  },
+  {
+    "id": "radev-pensions-8pct",
+    "politician": "radev",
+    "text": "Пенсиите да се увеличат с 8% през 2027 г. (в средата на годината).",
+    "quote": null,
+    "quote_lang": null,
+    "said_on": "2026-10-15",
+    "context": "Заявено от Радев в началото на заседание на Министерския съвет на 15 октомври 2026 г. (по Novinite).",
+    "source": {
+      "title": "Bulgaria Plans Higher Public Wages Without Raising Main Taxes",
+      "publisher": "Novinite",
+      "url": "https://www.novinite.com/view_news.php?id=241065"
+    },
+    "topic": "social",
+    "match_text": "Пенсии 2027, увеличение на пенсиите с 8%, швейцарско правило, бюджет 2027. Pension increase 8% in 2027.",
+    "done_when": "Pensions are raised by 8% in 2027 as stated, from around mid-2027. A smaller increase counts as 'abandoned'.",
+    "due": "2027-07-01",
+    "status": "too_early",
+    "status_origin": "seed",
+    "status_updated": "2026-10-28",
+    "status_reason": "Бюджет 2027 още не е внесен, а увеличението е планирано за средата на 2027 г. (BTA, 16 окт.: „в средата на 2027 г.“, без процент). Ще проверим дали бюджетът наистина записва 8% и дали е спазен.",
+    "origin": "seed",
+    "evidence": [
+      {
+        "id": "e-pen-1",
+        "date": "2026-10-16",
+        "title": "Draft 2027 Budget Envisages Social Benefit Increases of 16% to 56%",
+        "publisher": "BTA",
+        "url": "https://www.bta.bg/en/news/bulgaria/1226016-draft-2027-budget-envisages-social-benefit-increases-of-16-to-56-",
+        "relation": "context",
+        "note": "Министър Ефремова: пенсиите се увеличават в средата на 2027 г.; статията не дава процент.",
+        "origin": "seed"
+      }
+    ],
+    "status_history": []
+  },
+  {
+    "id": "radev-public-wages-5pct",
+    "politician": "radev",
+    "text": "Заплатите в бюджетния сектор да се увеличат с 5% през 2027 г.",
+    "quote": null,
+    "quote_lang": null,
+    "said_on": "2026-10-15",
+    "context": "Заявено от Радев в началото на заседание на Министерския съвет на 15 октомври 2026 г. (по Novinite).",
+    "source": {
+      "title": "Bulgaria Plans Higher Public Wages Without Raising Main Taxes",
+      "publisher": "Novinite",
+      "url": "https://www.novinite.com/view_news.php?id=241065"
+    },
+    "topic": "social",
+    "match_text": "Заплати в публичния сектор 2027, увеличение с 5%, бюджет 2027, държавни служители. Public sector pay rise 5%.",
+    "done_when": "The 2027 budget raises public-sector salaries by 5%. A smaller rise counts as 'abandoned'.",
+    "due": null,
+    "status": "too_early",
+    "status_origin": "seed",
+    "status_updated": "2026-10-28",
+    "status_reason": "Бюджет 2027 още не е внесен. По BTA (16 окт.) повишенията в администрацията ще зависят от оценката на всеки служител.",
+    "origin": "seed",
+    "evidence": [
+      {
+        "id": "e-wag-1",
+        "date": "2026-10-16",
+        "title": "Draft 2027 Budget Envisages Social Benefit Increases of 16% to 56%",
+        "publisher": "BTA",
+        "url": "https://www.bta.bg/en/news/bulgaria/1226016-draft-2027-budget-envisages-social-benefit-increases-of-16-to-56-",
+        "relation": "context",
+        "note": "Министър Ефремова: +5% за публичния сектор; в администрацията – според оценката на всеки служител.",
+        "origin": "seed"
+      }
+    ],
+    "status_history": []
+  },
+  {
+    "id": "radev-teachers-7-5pct",
+    "politician": "radev",
+    "text": "Учителските заплати да се увеличат със 7,5% през 2027 г.",
+    "quote": null,
+    "quote_lang": null,
+    "said_on": "2026-10-15",
+    "context": "Заявено от Радев в началото на заседание на Министерския съвет на 15 октомври 2026 г. (по Novinite).",
+    "source": {
+      "title": "Bulgaria Plans Higher Public Wages Without Raising Main Taxes",
+      "publisher": "Novinite",
+      "url": "https://www.novinite.com/view_news.php?id=241065"
+    },
+    "topic": "social",
+    "match_text": "Учителски заплати 2027, увеличение със 7,5%, образование, бюджет 2027. Teachers pay rise 7.5%.",
+    "done_when": "The 2027 budget raises teachers' pay by 7.5%. A smaller rise counts as 'abandoned'.",
+    "due": null,
+    "status": "too_early",
+    "status_origin": "seed",
+    "status_updated": "2026-10-28",
+    "status_reason": "Бюджет 2027 още не е внесен; увеличението е потвърдено и от BTA (16 окт.) за системата на образованието.",
+    "origin": "seed",
+    "evidence": [
+      {
+        "id": "e-tea-1",
+        "date": "2026-10-16",
+        "title": "Draft 2027 Budget Envisages Social Benefit Increases of 16% to 56%",
+        "publisher": "BTA",
+        "url": "https://www.bta.bg/en/news/bulgaria/1226016-draft-2027-budget-envisages-social-benefit-increases-of-16-to-56-",
+        "relation": "context",
+        "note": "Министър Ефремова: +7,5% в образованието.",
+        "origin": "seed"
+      }
+    ],
+    "status_history": []
+  },
+  {
+    "id": "radev-vouchers-200",
+    "politician": "radev",
+    "text": "Ваучерите за храна да се удвоят – от 100 на 200 евро.",
+    "quote": null,
+    "quote_lang": null,
+    "said_on": "2026-10-15",
+    "context": "Заявено от Радев в началото на заседание на Министерския съвет на 15 октомври 2026 г. (по Novinite).",
+    "source": {
+      "title": "Bulgaria Plans Higher Public Wages Without Raising Main Taxes",
+      "publisher": "Novinite",
+      "url": "https://www.novinite.com/view_news.php?id=241065"
+    },
+    "topic": "social",
+    "match_text": "Ваучери за храна 200 евро вместо 100, бюджет 2027, облагане на ваучери. Food vouchers doubled to 200 euro.",
+    "done_when": "Food vouchers are doubled to 200 euro in the 2027 budget and are not taxed away. Cutting or taxing them counts as 'abandoned'.",
+    "due": null,
+    "status": "too_early",
+    "status_origin": "seed",
+    "status_updated": "2026-10-28",
+    "status_reason": "Бюджет 2027 още не е внесен. Опозицията (Асен Василев) твърди, че ваучерите ще бъдат облагани и че проектът носи над 2 млрд. евро нови данъци – това е нейно твърдение, не е проверено и противоречи на тезата на правителството.",
+    "origin": "seed",
+    "evidence": [
+      {
+        "id": "e-vou-1",
+        "date": null,
+        "title": "Asen Vasilev accuses cabinet of hiding 2027 budget and breaking the law",
+        "publisher": "Burgasmedia",
+        "url": "https://burgasmedia.com/news/asen-vasilev-obvini-kabineta-che-krie-byudzheta-za-2027-g-i-narushava-zakona?lang=en",
+        "relation": "context",
+        "note": "Твърдение на опонент (Асен Василев), по резюме – не е проверено.",
+        "origin": "seed"
+      }
+    ],
+    "status_history": []
+  },
+  {
+    "id": "radev-young-doctors",
+    "politician": "radev",
+    "text": "По-високи заплати за младите лекари в бюджет 2027 и по-бързо професионално развитие.",
+    "quote": "We are providing for higher salaries for young doctors in the 2027 [State] budget",
+    "quote_lang": "en",
+    "said_on": "2026-10-07",
+    "context": "Изказване в началото на редовно заседание на правителството.",
+    "source": {
+      "title": "PM Radev: 2027 State Budget to Include Higher Salaries for Young Doctors",
+      "publisher": "BTA",
+      "url": "https://www.bta.bg/en/news/bulgaria/1219253-pm-radev-2027-state-budget-to-include-higher-salaries-for-young-doctors"
+    },
+    "topic": "health",
+    "match_text": "Млади лекари, заплати, здравеопазване, НЗОК, бюджет 2027. Young doctors higher salaries 2027 budget.",
+    "done_when": "The adopted 2027 budget (and NHIF budget) contains higher pay for young doctors that actually reaches them.",
+    "due": null,
+    "status": "too_early",
+    "status_origin": "seed",
+    "status_updated": "2026-10-28",
+    "status_reason": "Бюджетът за 2027 г. още не е внесен. По BNT проектобюджетът на НЗОК предвижда допълнително ок. 260 млн. евро за заплати на млади лекари и медицински персонал, но не е ясно как парите ще стигнат до тях (по резюме; не е проверено в пълния текст).",
+    "origin": "seed",
+    "evidence": [
+      {
+        "id": "e-doc-1",
+        "date": null,
+        "title": "€1,860 starting salary planned for young doctors",
+        "publisher": "BNT",
+        "url": "https://bntnews.bg/news/€1860-starting-salary-planned-for-young-doctors-1362645news.html",
+        "relation": "context",
+        "note": "По заглавие и резюме: планирани са 150% от средната брутна заплата за младите лекари. Дата и детайли не са проверени.",
+        "origin": "seed"
+      }
+    ],
+    "status_history": []
+  },
+  {
+    "id": "radev-iris-t",
+    "politician": "radev",
+    "text": "България да купи още 5 системи IRIS-T SLM за противовъздушна отбрана; споразумението с Германия да бъде сключено до няколко седмици.",
+    "quote": null,
+    "quote_lang": null,
+    "said_on": "2026-10-15",
+    "context": "Парламентът одобри проекта на 15 октомври 2026 г.; финансиране по европейския инструмент SAFE (общо 1,1 млрд. евро за двата етапа).",
+    "source": {
+      "title": "Parliament Approves Project for Five More Air Defence Systems",
+      "publisher": "BTA",
+      "url": "https://www.bta.bg/en/news/1225231-parliament-approves-project-for-five-more-air-defence-systems"
+    },
+    "topic": "defence",
+    "match_text": "IRIS-T SLM, противовъздушна отбрана, SAFE, споразумение с Германия, Diehl Defence. Five more IRIS-T air defence systems.",
+    "done_when": "The programme agreement with Germany and the addendum to the Diehl Defence contract are signed. Delay beyond several weeks is 'obstacle'.",
+    "due": null,
+    "status": "in_progress",
+    "status_origin": "seed",
+    "status_updated": "2026-10-28",
+    "status_reason": "Правителството одобри проекта на споразумение на 14 октомври, а парламентът – инвестиционния проект на 15 октомври. Остава подписването на споразумение с Германия и допълнение към договора с Diehl Defence; Радев се надява това да стане „до няколко седмици“.",
+    "origin": "seed",
+    "evidence": [
+      {
+        "id": "e-iris-1",
+        "date": "2026-10-15",
+        "title": "Parliament Approves Project for Five More Air Defence Systems",
+        "publisher": "BTA",
+        "url": "https://www.bta.bg/en/news/1225231-parliament-approves-project-for-five-more-air-defence-systems",
+        "relation": "progress",
+        "note": "Парламентът одобри проекта (1 система в първия етап + 5 във втория; общо 1 106 466 933 евро по SAFE).",
+        "origin": "seed"
+      }
+    ],
+    "status_history": []
+  },
+  {
+    "id": "radev-price-register",
+    "politician": "radev",
+    "text": "Централен електронен регистър за цените на храните.",
+    "quote": null,
+    "quote_lang": null,
+    "said_on": "2026-10-02",
+    "context": "Изказване на Радев; по Investor.bg.",
+    "source": {
+      "title": "Румен Радев: Работи се по централен електронен регистър за цените на храните",
+      "publisher": "Investor.bg",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVWg0WTFaUGRPRlViSGZYSzNKenJESzJSanYzT0R1ZXJ1WHdyTTVvYmo3ZnlCSVJFcDRVZkJxaTk4ZHhldVZCbTZvUWc1T2dOSUFhX05lUHpLZ01IaW5LZkRCcDh3OGNXVWNIUWNBekQzWS1FbWN5dzlLMFdpeHctLU1oVlBGZDN2dFN6d1RBbEpERHF3eWliWVdRN0JJWWQ5QXhJNk5LTnNGQnJPWTI0ZHM5cTUzRU1RNENKYlpCcHo?oc=5"
+    },
+    "topic": "prices",
+    "match_text": "Електронен регистър за цените на храните, прозрачност на цените, търговски вериги. Central electronic register of food prices.",
+    "done_when": "The electronic price register is live and publishes shelf prices of basic foods.",
+    "due": null,
+    "status": "in_progress",
+    "status_origin": "seed",
+    "status_updated": "2026-10-28",
+    "status_reason": "Законът, приет на 11 юни, предвижда електронен регистър за откриване на пазарни нарушения (Sofia Globe), а на 2 октомври Радев казва, че „се работи“ по регистър за цените на храните. Не е ясно кога ще заработи.",
+    "origin": "seed",
+    "evidence": [
+      {
+        "id": "e-reg-1",
+        "date": "2026-06-11",
+        "title": "Bulgaria's Parliament extends ban on 'economically unjustified' consumer price increases",
+        "publisher": "Sofia Globe",
+        "url": "https://sofiaglobe.com/?p=127905",
+        "relation": "progress",
+        "note": "Промените в Закона за защита на конкуренцията създават електронен регистър за откриване на пазарни нарушения.",
+        "origin": "seed"
+      }
+    ],
+    "status_history": []
+  },
+  {
+    "id": "radev-lukoil-manager",
+    "politician": "radev",
+    "text": "Да бъде сменен особеният управител на „Лукойл“, за да покаже държавата, че може да управлява рафинерията в Бургас „като добър стопанин“.",
+    "quote": null,
+    "quote_lang": null,
+    "said_on": "2026-05-11",
+    "context": "Заявено от депутати на „Прогресивна България“ (по EUalive) – партиен ангажимент, не лично изказване на Радев.",
+    "source": {
+      "title": "Rumen Radev: governing without the right to excuses",
+      "publisher": "EUalive",
+      "url": "https://eualive.net/rumen-radev-governing-without-the-right-to-excuses/"
+    },
+    "topic": "energy",
+    "match_text": "Лукойл Нефтохим Бургас, особен управител, държавен контрол, рафинерия. Lukoil Burgas refinery special manager.",
+    "done_when": "The special manager is replaced by a government-appointed one. Selling or handing the refinery back is out of scope.",
+    "due": null,
+    "status": "partial",
+    "status_origin": "seed",
+    "status_updated": "2026-10-28",
+    "status_reason": "Самата „Лукойл“ съобщава, че на 6 юни 2026 г. вицепремиерът Александър Пулев е представил Евгени Симеонов като особен търговски управител. Не открихме независимо потвърждение, че предишният управител е освободен, затова оценката е „частично“. По Novinite изкупуването от държавата не е във формалната програма на правителството.",
+    "origin": "seed",
+    "evidence": [
+      {
+        "id": "e-luk-1",
+        "date": "2026-06-06",
+        "title": "LUKOIL-BULGARIA EOOD – news",
+        "publisher": "Lukoil Bulgaria (самата компания)",
+        "url": "https://lukoil.bg/EN/News",
+        "relation": "progress",
+        "note": "Съобщение на засегнатата компания: Пулев представя Евгени Симеонов като особен търговски управител. Източникът не е независим.",
+        "origin": "seed"
+      }
+    ],
+    "status_history": []
+  },
+  {
+    "id": "radev-belene-ukraine",
+    "politician": "radev",
+    "text": "България и Украйна да изградят заедно АЕЦ „Белене“ с европейски средства; токът – през Румъния към Украйна (предложение на Радев към Зеленски).",
+    "quote": null,
+    "quote_lang": null,
+    "said_on": "2026-07",
+    "context": "Предложение, не решение; по Intellinews.",
+    "source": {
+      "title": "Bulgaria's PM proposes reviving Belene nuclear project with EU funds",
+      "publisher": "bne IntelliNews",
+      "url": "https://www.intellinews.com/bulgaria-s-pm-proposes-reviving-belene-nuclear-project-with-eu-funds-452668/"
+    },
+    "topic": "energy",
+    "match_text": "АЕЦ Белене, Украйна, Зеленски, европейско финансиране, атомна енергетика. Belene nuclear plant with Ukraine.",
+    "done_when": "A binding agreement and funding for Belene are signed. A proposal alone is not delivery.",
+    "due": null,
+    "status": "too_early",
+    "status_origin": "seed",
+    "status_updated": "2026-10-28",
+    "status_reason": "Предложението е част от поредния опит за възраждане на проекта, който е изоставян и подновяван многократно. Оборудването за малко над 600 млн. евро е на склад, а преговорите с Киев са блокирали (по Intellinews). Няма взето решение.",
+    "origin": "seed",
+    "evidence": [],
+    "status_history": []
+  },
+  {
+    "id": "radev-municipal-investment",
+    "politician": "radev",
+    "text": "Инвестиционна програма за общински проекти с прозрачни условия за финансиране.",
+    "quote": null,
+    "quote_lang": null,
+    "said_on": "2026-08-12",
+    "context": "Приета заедно с Програмата за управление 2026–2030 (по Novinite).",
+    "source": {
+      "title": "Radev Cabinet Approves Bulgaria’s Governance Program Through 2030",
+      "publisher": "Novinite",
+      "url": "https://www.novinite.com/articles/240105/Radev+Cabinet+Approves+Bulgaria%E2%80%99s+Governance+Program+Through+2030"
+    },
+    "topic": "governance",
+    "match_text": "Инвестиционна програма за общини, прозрачни условия, капиталова програма, финансиране на общински проекти. Municipal investment programme.",
+    "done_when": "Municipal projects are actually funded under published, transparent conditions.",
+    "due": null,
+    "status": "unclear",
+    "status_origin": "seed",
+    "status_updated": "2026-10-28",
+    "status_reason": "Не е посочена сума, а не открихме и данни дали програмата е започнала да финансира проекти. Ще следим.",
+    "origin": "seed",
+    "evidence": [],
+    "status_history": []
+  },
+  {
+    "id": "shishkov-hemus-2030",
+    "politician": "shishkov",
+    "text": "АМ „Хемус“ до Велико Търново да бъде завършена до края на мандата на кабинета – 2030 г.",
+    "quote": null,
+    "quote_lang": null,
+    "said_on": "2026-08-14",
+    "context": "Изказване от Плевен; повторено пред парламента на 3 септември (по BNT).",
+    "source": {
+      "title": "Reactions to government programme",
+      "publisher": "BTA",
+      "url": "https://www.bta.bg/en/news/bulgaria/1185564-regional-development-minister-compares-previous-government-programmes-with-pre-d"
+    },
+    "topic": "infrastructure",
+    "match_text": "Автомагистрала Хемус до Велико Търново, 2030, договори за строителство, Автомагистрали АД. Hemus motorway to Veliko Tarnovo by 2030.",
+    "done_when": "The Hemus motorway section to Veliko Tarnovo is open to traffic by the end of 2030.",
+    "due": null,
+    "status": "too_early",
+    "status_origin": "seed",
+    "status_updated": "2026-10-28",
+    "status_reason": "Срокът е краят на мандата (2030 г.). Пред парламента на 3 септември Шишков е казал, че едностранното прекратяване на договорите би довело до загуби и фалит на „Автомагистрали“ АД (по резюме); BNT е публикувала и заглавие за срок „две години и половина“ до Велико Търново – двете формулировки не са съгласувани.",
+    "origin": "seed",
+    "evidence": [
+      {
+        "id": "e-hem-1",
+        "date": null,
+        "title": "'Hemus' motorway could be completed by 2030, regional development minister says",
+        "publisher": "BNT",
+        "url": "https://bntnews.bg/news/-39hemus-39-motorway-could-be-completed-by-2030-regional-development-minister-says-1410771news.html",
+        "relation": "context",
+        "note": "По заглавие: магистралата може да е завършена до 2030 г.",
+        "origin": "seed"
+      },
+      {
+        "id": "e-hem-2",
+        "date": null,
+        "title": "Minister Shishkov: Hemus motorway to reach Veliko Tarnovo within two and a half years",
+        "publisher": "BNT",
+        "url": "https://bntnews.bg/news/minister-shishkov-hemus-motorway-to-reach-veliko-tarnovo-within-two-and-a-half-years-1411782news.html",
+        "relation": "context",
+        "note": "По заглавие: срок „две години и половина“ до Велико Търново.",
+        "origin": "seed"
+      }
+    ],
+    "status_history": []
+  },
+  {
+    "id": "shishkov-hemus-decision",
+    "politician": "shishkov",
+    "text": "Правен анализ за АМ „Хемус“ до края на август 2026 г. и последващо решение на правителството за строителството.",
+    "quote": null,
+    "quote_lang": null,
+    "said_on": "2026-08-14",
+    "context": "Изказване от Плевен.",
+    "source": {
+      "title": "Reactions to government programme",
+      "publisher": "BTA",
+      "url": "https://www.bta.bg/en/news/bulgaria/1185564-regional-development-minister-compares-previous-government-programmes-with-pre-d"
+    },
+    "topic": "infrastructure",
+    "match_text": "Хемус, правен анализ, прекратяване на договори, решение на правителството, август 2026. Hemus legal review and government decision.",
+    "done_when": "A government decision on how to continue the Hemus contracts is announced after the legal review.",
+    "due": "2026-08-31",
+    "status": "unclear",
+    "status_origin": "seed",
+    "status_updated": "2026-10-28",
+    "status_reason": "Срокът (31 август) е изтекъл. На 3 септември Шишков заяви пред парламента, че магистралата може да е готова до 2030 г. и че прекратяването на договорите би довело до загуби (по BNT, по резюме). Не открихме официално решение на Министерския съвет.",
+    "origin": "seed",
+    "evidence": [
+      {
+        "id": "e-hed-1",
+        "date": null,
+        "title": "'Hemus' motorway could be completed by 2030, regional development minister says",
+        "publisher": "BNT",
+        "url": "https://bntnews.bg/news/-39hemus-39-motorway-could-be-completed-by-2030-regional-development-minister-says-1410771news.html",
+        "relation": "context",
+        "note": "Изказване пред парламента; по резюме.",
+        "origin": "seed"
+      }
+    ],
+    "status_history": []
+  },
+  {
+    "id": "shishkov-prisovski",
+    "politician": "shishkov",
+    "text": "Строителството на Присовските завои и Северния пътен възел при Велико Търново да започне в средата на 2027 г.",
+    "quote": null,
+    "quote_lang": null,
+    "said_on": "2026-10-27",
+    "context": "По Fakti.bg, цитиращ nova.bg; срокът е приписан на министър Шишков, не на Радев.",
+    "source": {
+      "title": "Radev: Projects for key highways to be ready by year",
+      "publisher": "Fakti.bg (по nova.bg)",
+      "url": "https://fakti.bg/en/bulgaria/1094523-radev-projects-for-key-highways-to-be-ready-by-year"
+    },
+    "topic": "infrastructure",
+    "match_text": "Присовски завои, Северен пътен възел, Велико Търново, строителство 2027. Prisovo bends construction mid-2027.",
+    "done_when": "Construction of the Prisovo bends and Northern road junction starts by mid-2027.",
+    "due": "2027-07-01",
+    "status": "too_early",
+    "status_origin": "seed",
+    "status_updated": "2026-10-28",
+    "status_reason": "Срокът (средата на 2027 г.) още не е настъпил.",
+    "origin": "seed",
+    "evidence": [],
+    "status_history": []
+  },
+  {
+    "id": "efremova-benefits-16-56",
+    "politician": "efremova",
+    "text": "Всички детски и семейни помощи да се увеличат с 16% до 56% в бюджет 2027 (според вида помощ); по-големи данъчни облекчения за семейства с деца.",
+    "quote": null,
+    "quote_lang": null,
+    "said_on": "2026-10-16",
+    "context": "Изказване пред журналисти във Варна.",
+    "source": {
+      "title": "Draft 2027 Budget Envisages Social Benefit Increases of 16% to 56%",
+      "publisher": "BTA",
+      "url": "https://www.bta.bg/en/news/bulgaria/1226016-draft-2027-budget-envisages-social-benefit-increases-of-16-to-56-"
+    },
+    "topic": "social",
+    "match_text": "Детски помощи, семейни помощи, майчинство, данъчни облекчения за семейства с деца, бюджет 2027. Child benefits 16% to 56%.",
+    "done_when": "The adopted 2027 budget raises child and family benefits by 16-56% as stated. Smaller rises count as 'abandoned'.",
+    "due": null,
+    "status": "too_early",
+    "status_origin": "seed",
+    "status_updated": "2026-10-28",
+    "status_reason": "Бюджет 2027 още не е внесен. Статията не дава процент за всяка помощ поотделно, затова ще проверим конкретните суми в окончателния текст. На 20 юли председателят на бюджетната комисия от ПБ Константин Проданов вече обеща осъвременяване на замразените помощи (Novinite).",
+    "origin": "seed",
+    "evidence": [],
+    "status_history": []
+  },
+  {
+    "id": "efremova-min-wage",
+    "politician": "efremova",
+    "text": "Минималната заплата за 2027 г. да бъде „колкото е възможно по-близо“ до горната граница от 672,80 евро.",
+    "quote": null,
+    "quote_lang": null,
+    "said_on": "2026-10-16",
+    "context": "Изказване пред журналисти във Варна; на 15 октомври е публикуван проектодекрет за 660 евро.",
+    "source": {
+      "title": "Draft 2027 Budget Envisages Social Benefit Increases of 16% to 56%",
+      "publisher": "BTA",
+      "url": "https://www.bta.bg/en/news/bulgaria/1226016-draft-2027-budget-envisages-social-benefit-increases-of-16-to-56-"
+    },
+    "topic": "social",
+    "match_text": "Минимална заплата 2027, 660 евро, горна граница 672,80, механизъм за минималната заплата, синдикати. Minimum wage 2027.",
+    "done_when": "The 2027 minimum wage decree is adopted at or very near 672.80 euro. 660 euro is 12.80 below the stated maximum.",
+    "due": "2027-01-01",
+    "status": "in_progress",
+    "status_origin": "seed",
+    "status_updated": "2026-10-28",
+    "status_reason": "На 15 октомври е публикуван проектодекрет за 660 евро от 1 януари 2027 г. (+6,4%, Novinite) – с 12,80 евро под максимума от 672,80 евро, към който министърът каза, че правителството ще се стреми. Според Novinite това е и ок. 30 евро под 690 евро, които би дал отменения предишен механизъм. Консултацията приключва на 28 октомври; решението още не е окончателно.",
+    "origin": "seed",
+    "evidence": [
+      {
+        "id": "e-mw-1",
+        "date": "2026-10-15",
+        "title": "Radev Cabinet Proposes €660 Minimum Wage, Below Previous Mechanism’s Level",
+        "publisher": "Novinite",
+        "url": "https://www.novinite.com/view_news.php?id=241069",
+        "relation": "progress",
+        "note": "Проектодекрет: 660 евро от 1 януари 2027 г. (3,98 евро на час), +39,80 евро (6,4%). Публичната консултация приключва на 28 октомври.",
+        "origin": "seed"
+      }
+    ],
+    "status_history": []
+  },
+  {
+    "id": "donev-reform-package",
+    "politician": "donev",
+    "text": "Пакетът реформи – Закон за държавния служител, Кодекс на труда, Закон за Фискалния съвет и др. – да бъде приет „до края на годината“.",
+    "quote": null,
+    "quote_lang": null,
+    "said_on": "2026-08-12",
+    "context": "Донев изрази надежда; по BTA. Част от Програмата за управление 2026–2030.",
+    "source": {
+      "title": "PM Praises Governance Programme as Enforcing De-Oligarchization, Upholding the Rule of Law",
+      "publisher": "BTA",
+      "url": "https://www.bta.bg/en/news/1183916-pm-praises-governance-programme-as-enforcing-de-oligarchization-upholding-the-r"
+    },
+    "topic": "governance",
+    "match_text": "Закон за държавния служител, Кодекс на труда, Закон за Фискалния съвет, публична администрация, фискални правила, приемане до края на годината. Reform package by end of year.",
+    "done_when": "The Civil Servants Act, Labour Code and Fiscal Council Act changes are adopted by 31 December 2026.",
+    "due": "2026-12-31",
+    "status": "unclear",
+    "status_origin": "seed",
+    "status_updated": "2026-10-28",
+    "status_reason": "Срокът е 31 декември 2026 г. Според BTA дебатът започва от първия ден след ваканцията на парламента. Не открихме данни кои законопроекти са внесени или приети – ще следим.",
+    "origin": "seed",
+    "evidence": [],
+    "status_history": []
+  },
+  {
+    "id": "stoyanov-no-arms-ukraine",
+    "politician": "stoyanov",
+    "text": "България няма да предоставя повече оръжие на украинската армия.",
+    "quote": "It is not planned for the Bulgarian side to provide more weapons to the Ukrainian army",
+    "quote_lang": "en",
+    "said_on": "2026-06-09",
+    "context": "Заявено от министъра на отбраната; по Ройтерс.",
+    "source": {
+      "title": "Bulgaria's new government says it will not provide arms for Ukraine",
+      "publisher": "Reuters (чрез Internazionale)",
+      "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/06/09/bulgaria-s-new-government-says-it-will-not-provide-arms-for-ukraine"
+    },
+    "topic": "foreign",
+    "match_text": "Оръжие за Украйна, доставки, военна помощ, министър на отбраната. No more weapons for Ukraine.",
+    "done_when": "No new Bulgarian weapons deliveries to Ukraine are reported after 9 June 2026. A reported delivery counts as 'abandoned'.",
+    "due": null,
+    "status": "unclear",
+    "status_origin": "seed",
+    "status_updated": "2026-10-28",
+    "status_reason": "Не сме проверявали за нови доставки след 9 юни, затова не даваме оценка „изпълнено“. Позицията е в съответствие с по-ранни изказвания на Радев, но тук оценяваме казаното от министъра.",
+    "origin": "seed",
+    "evidence": [],
+    "status_history": []
+  },
+  {
+    "id": "borissov-no-coalitions-unless-dominant",
+    "politician": "borissov",
+    "text": "ГЕРБ повече няма да участва в „сглобки“ и коалиции, без да е доминиращата партия.",
+    "quote": null,
+    "quote_lang": null,
+    "said_on": "2026-10-21",
+    "context": "Изказване на Борисов.",
+    "source": {
+      "title": "Борисов: ГЕРБ повече няма да участва в сглобки и коалиции, без да е доминиращата партия",
+      "publisher": "Euronews Bulgaria",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORzNpd2xVdTZBNkV3SXMxR1NlVUtYSzAyV3VhVkt3TXBlRVVVTG84bFNRY3g1d3VVQVRFaVI2X3oyUlRlVm00c1hzVC1MYWVRT1JBb2d2T2J3RkRxYjFmV1JqdEZ4NVExVjQxWDhKQm9lQVo3UTN0Q2pDSktEVUJSOFZwOWlVc0lPZkZEYXpSczRZRXNQQTJNWHQ4R2ZhN0ZvNTNOZThFUFhvRmhMTmNvWkF4bEh0MzN2WWc?oc=5"
+    },
+    "topic": "governance",
+    "match_text": "ГЕРБ, сглобки, коалиции, доминираща партия, Борисов, управление. GERB will not join coalitions unless dominant.",
+    "done_when": "GERB joins no coalition or governing arrangement in which it is not the leading party. Joining one counts as 'abandoned'.",
+    "due": null,
+    "status": "too_early",
+    "status_origin": "seed",
+    "status_updated": "2026-10-28",
+    "status_reason": "ГЕРБ е в опозиция, а ПБ има самостоятелно мнозинство – обещанието не може да бъде проверено, докато не се формира ново управление.",
+    "origin": "seed",
+    "evidence": [
+      {
+        "id": "e-bor-co-1",
+        "date": "2026-10-21",
+        "title": "Борисов: ГЕРБ повече няма да участва в сглобки и коалиции без водеща роля",
+        "publisher": "Vesti.bg",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNWlCNTJWM2RkMUpJd0VMY3AtTG1kbFNTaTQ2d0ZybDRlU2FMYWozSHd4TG5qakJPUzdKSVRrQlhBeEpGbTRsRFRMdG5Db3QtUWdpSklzRURXOFBuRW5NdFh4MjUxT2VlUFA1Sm9BWGdyNHRTdmxtUDNSTVVDSFdoX1plV0ZfUUlycEF5WU9KVlpCa0dQai1oOFJxNnVDdEJ5ek5Tb0pUVHZlWGhsbUd1M0RSUEtRS1c0Qk5n?oc=5",
+        "relation": "context",
+        "note": "Същата новина, отразена от друго издание.",
+        "origin": "seed"
+      },
+      {
+        "id": "e-bor-co-1",
+        "date": "2026-10-21",
+        "title": "Борисов: ГЕРБ повече в сглобки и коалиции, без да е доминиращата партия, няма да участва",
+        "publisher": "bTV Новините",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQemttMldraExpYUxhZDdmeXhmaHNiN0xCUTM3aFhHSkd1ZDhXdnlzcXRaU2x3WmMydS1wRnJROUNZZy1wRFIwZ1ZESUVDQ1hTOTdNWEE2SGxuYXJIeUVmZXQzNUs0eU81M183WmhNYUp1emticE9PWGxBSV9HbEs4Y2NxODRKSVFhZVhMbFJMLUZZdUtzRF9JdVZGTDlsMl91bkp6X2h1R25adlNsYjAwRXB1cjd5aFdEMnp0cXhCX1ZGdzcyVGU4?oc=5",
+        "relation": "context",
+        "note": "Същата новина, отразена от друго издание.",
+        "origin": "seed"
+      }
+    ],
+    "status_history": []
+  },
+  {
+    "id": "borissov-mp-seat",
+    "politician": "borissov",
+    "text": "Да не заеме депутатско място, въпреки че води листите на ГЕРБ (позиция през 2021 г.).",
+    "quote": null,
+    "quote_lang": null,
+    "said_on": "2021",
+    "context": "Позиция при трите избори през 2021 г.; по Уикипедия.",
+    "source": {
+      "title": "Boyko Borisov",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Boyko_Borisov"
+    },
+    "topic": "governance",
+    "match_text": "Борисов депутат, листи на ГЕРБ, отказ да стане депутат, 2021, 2023. Borissov refused to become an MP.",
+    "done_when": "Borissov does not take up a seat in parliament. Taking the seat counts as 'reversal'.",
+    "due": null,
+    "status": "reversed",
+    "status_origin": "seed",
+    "status_updated": "2026-10-28",
+    "status_reason": "По Уикипедия през 2021 г. Борисов многократно е отказвал да стане депутат, въпреки че е водил листите на ГЕРБ на всички три избори, но на 12 април 2023 г. става депутат. Оценяваме смяната на позицията, не причините за нея.",
+    "origin": "seed",
+    "evidence": [
+      {
+        "id": "e-bor-mp-1",
+        "date": "2023-04-12",
+        "title": "Boyko Borisov",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Boyko_Borisov",
+        "relation": "reversal",
+        "note": "Борисов става депутат на 12 април 2023 г.",
+        "origin": "seed"
+      }
+    ],
+    "status_history": []
+  },
+  {
+    "id": "borissov-corruption-2009",
+    "politician": "borissov",
+    "text": "Да ограничи корупцията в държавната администрация и да бъдат осъдени представители на предишни кабинети (начало на първия мандат, 2009 г.).",
+    "quote": null,
+    "quote_lang": null,
+    "said_on": "2009",
+    "context": "Политика на първото правителство на Борисов; по Уикипедия.",
+    "source": {
+      "title": "Boyko Borisov",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Boyko_Borisov"
+    },
+    "topic": "corruption",
+    "match_text": "Корупция, осъдени министри от предишни кабинети, обещание за борба с корупцията, Борисов 2009. Anti-corruption pledge 2009.",
+    "done_when": "Former cabinet members are convicted and independent indices show lower corruption.",
+    "due": null,
+    "status": "unclear",
+    "status_origin": "seed",
+    "status_updated": "2026-10-28",
+    "status_reason": "По Уикипедия към май 2011 г. „няма осъден представител на предишни кабинети“ въпреки първоначалното обещание, а индексът на Transparency International не показва по-малко корупция от предишните правителства. Не сме проверявали по-късните години, затова не даваме окончателна оценка.",
+    "origin": "seed",
+    "evidence": [],
+    "status_history": []
+  },
+  {
+    "id": "iotova-restore-trust",
+    "politician": "iotova",
+    "text": "Стабилност и връщане на доверието в институциите.",
+    "quote": null,
+    "quote_lang": null,
+    "said_on": "2026-10-22",
+    "context": "Предизборно обещание преди първия тур (по заглавие на Bgonair).",
+    "source": {
+      "title": "Йотова обеща стабилност и връщане на доверието в институциите",
+      "publisher": "Bgonair",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZERZdjZWdXFkZlF1dnpBbHdhUk51b25NMUFXcHVBQV9LNXYxWUN6Y3VuRmJLU1Y0b2VQaXlqOVgyV1phYjEzdG0weFFldXRsM1ZaZklwcFR0ejdxRWM3TWU1R3h0TDQzUk5ZVVNBMlFpWGpHWU5nTXFRRldDSkM0aFNURXpMakJaTDhRQXlTa09RM24zWDUxakVKRGp3c21MNy1MNjVHOXNNYWlndUl1a0NEX2U?oc=5"
+    },
+    "topic": "governance",
+    "match_text": "Йотова, стабилност, доверие в институциите, президент, балотаж. Stability and trust in institutions.",
+    "done_when": "Independent measures of trust in institutions rise during her term. A slogan alone is not delivery.",
+    "due": null,
+    "status": "unclear",
+    "status_origin": "seed",
+    "status_updated": "2026-10-28",
+    "status_reason": "Лозунг без измерим показател. Не можем честно да кажем „изпълнено“ или „нарушено“; президентът има и ограничени правомощия.",
+    "origin": "seed",
+    "evidence": [],
+    "status_history": []
+  },
+  {
+    "id": "iotova-no-deals",
+    "politician": "iotova",
+    "text": "Мир, развети български знамена и „без сглобки“.",
+    "quote": null,
+    "quote_lang": null,
+    "said_on": "2026-10-25",
+    "context": "Изявление след първия тур (по заглавие на News.bg).",
+    "source": {
+      "title": "Мир, развети български знамена и без сглобки обещава Йотова след първия тур",
+      "publisher": "News.bg",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOT1hpOTUxQWJ5R2h0VUk0bVpIUmFjYjZhT1ZBajdBR1VqQ3pmUTNfU1ZuTHVOcjJDNk8zcU96WlNkTWJyZE1CRDA5dmdfaVBYbzlDRlE2M0Z2QUNTUEotdmJZUEw4OUJKTEJsbmx5WDMxOHROT01hX09mQ3g0d3FDMUJJTjY3SDk3ZUZKRTFxN1FOeHZBT1JRR0ZxSS1CZDhKb0M5V01sYTlaVlE?oc=5"
+    },
+    "topic": "governance",
+    "match_text": "Йотова, мир, български знамена, без сглобки, балотаж. Peace, flags and no backroom deals.",
+    "done_when": "Observable behaviour such as no backroom coalition arrangements is documented. A slogan alone is not delivery.",
+    "due": "2026-11-01",
+    "status": "unclear",
+    "status_origin": "seed",
+    "status_updated": "2026-10-28",
+    "status_reason": "Лозунг, чието съдържание по заглавието не е ясно. Ще оценим конкретните действия, ако бъде избрана на балотажа на 1 ноември.",
+    "origin": "seed",
+    "evidence": [],
     "status_history": []
   }
 ]
