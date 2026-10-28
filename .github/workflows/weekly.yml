@@ -1,11 +1,15 @@
 name: Weekly update
 
-# Every Monday: fetch fresh headlines, let an AI judge them, apply the fixed verdict rules,
-# commit the changed data and redeploy the site. No PC and no secret needed: it uses GitHub's own
-# GITHUB_TOKEN and the free GitHub Models API as the judge.
+# PAUSED (schedule disabled): this job used the free GitHub Models API as its judge, but GitHub retired
+# that service on 2026-07-30 (every call now answers "OK" instead of JSON). Without a judge it only
+# collects headlines. To re-enable: set JUDGE_BASE_URL / JUDGE_MODEL below to any OpenAI-compatible
+# provider, store its key as the repo secret JUDGE_API_KEY, and un-comment the schedule.
+#
+# Intended behaviour: every Monday fetch headlines, let an AI judge them, apply the fixed verdict
+# rules, commit the changed data and redeploy the site.
 on:
-  schedule:
-    - cron: "30 5 * * 1"   # Monday 05:30 UTC = 07:30 in Sofia (winter time)
+  # schedule:
+  #   - cron: "30 5 * * 1"   # Monday 05:30 UTC = 07:30 in Sofia (winter time)
   workflow_dispatch:
 
 permissions:

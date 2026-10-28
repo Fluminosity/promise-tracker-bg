@@ -33,6 +33,8 @@ def run(models: dict | None = None, report: dict | None = None) -> dict:
         "last_fetch": news.get("updated"),
         "models": models or {},
         "backend": backend()["chat"],
+        # Only models that actually produced evidence - a configured-but-failing judge must not be advertised.
+        "judge_models": sorted({e["model"] for p in promises for e in p["evidence"] if e.get("origin") == "auto" and e.get("model")}),
         "politicians": people,
         "promises": promises,
         "stats": {
