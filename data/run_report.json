@@ -1,0 +1,31 @@
+{
+  "started": "2026-10-28T21:07:28+02:00",
+  "mode": "apply",
+  "chat_backend": "external",
+  "judge": {
+    "ok": true,
+    "answers": 8,
+    "attached": 6,
+    "seconds": 0.0
+  },
+  "verdict": {
+    "ok": true,
+    "changed": 0,
+    "seconds": 0.0
+  },
+  "discover": {
+    "ok": true,
+    "answers": 0,
+    "added": 0,
+    "seconds": 0.1
+  },
+  "finished": "2026-10-28T21:07:28+02:00",
+  "build": {
+    "ok": true,
+    "news_items": 1437,
+    "auto_evidence": 380,
+    "auto_promises": 2,
+    "status_changes": 0,
+    "seconds": 0.0
+  }
+}

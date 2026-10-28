@@ -1,0 +1,198 @@
+[
+  {
+    "id": "radev",
+    "name": "Румен Радев",
+    "role": "Министър-председател (от 8 май 2026 г.)",
+    "party": "Прогресивна България",
+    "party_short": "ПБ",
+    "seats": 131,
+    "bio": "Президент на България 2017–2026 г.; подаде оставка през януари 2026 г. и поведе новата партия „Прогресивна България“, която спечели 43,91% и 131 от 240 места на изборите на 19 април 2026 г. – първото самостоятелно мнозинство от десетилетия. Парламентът го избра за премиер на 8 май 2026 г.",
+    "aliases": [
+      "Румен Радев",
+      "Радев",
+      "Radev"
+    ],
+    "news_queries": [
+      "Румен Радев",
+      "Радев премиер обещава",
+      "правителство Радев"
+    ],
+    "bio_sources": [
+      {
+        "title": "2026 Bulgarian parliamentary election",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Bulgarian_parliamentary_election"
+      },
+      {
+        "title": "Parliament Elects Rumen Radev as Prime Minister",
+        "publisher": "BTA",
+        "url": "https://www.bta.bg/en/news/1121595-parliament-elects-rumen-radev-as-prime-minister"
+      }
+    ]
+  },
+  {
+    "id": "borissov",
+    "name": "Бойко Борисов",
+    "role": "Председател на ГЕРБ–СДС (опозиция)",
+    "party": "ГЕРБ–СДС",
+    "party_short": "ГЕРБ",
+    "seats": 39,
+    "bio": "Лидер на ГЕРБ, преизбран за нов четиригодишен мандат на 22 март 2026 г. На изборите на 19 април 2026 г. ГЕРБ–СДС завърши втори с 13,18% и 39 места (с 27 по-малко). След вота Борисов призна победата на Радев.",
+    "aliases": [
+      "Бойко Борисов",
+      "Борисов",
+      "Borissov",
+      "Borisov"
+    ],
+    "news_queries": [
+      "Бойко Борисов",
+      "Борисов ГЕРБ обеща"
+    ],
+    "bio_sources": [
+      {
+        "title": "2026 Bulgarian parliamentary election",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Bulgarian_parliamentary_election"
+      }
+    ]
+  },
+  {
+    "id": "vassilev",
+    "name": "Асен Василев",
+    "role": "Лидер на ПП–ДБ (опозиция)",
+    "party": "Продължаваме промяната – Демократична България",
+    "party_short": "ПП–ДБ",
+    "seats": 37,
+    "bio": "Лидер на коалицията „Продължаваме промяната – Демократична България“, която получи 12,42% и 37 места на изборите на 19 април 2026 г.",
+    "aliases": [
+      "Асен Василев",
+      "Assen Vassilev",
+      "Asen Vassilev"
+    ],
+    "news_queries": [
+      "Асен Василев",
+      "ПП-ДБ Продължаваме промяната предлага"
+    ],
+    "bio_sources": [
+      {
+        "title": "2026 Bulgarian parliamentary election",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Bulgarian_parliamentary_election"
+      }
+    ]
+  },
+  {
+    "id": "peevski",
+    "name": "Делян Пеевски",
+    "role": "Лидер на ДПС–Ново начало (опозиция)",
+    "party": "ДПС–Ново начало",
+    "party_short": "ДПС",
+    "seats": 21,
+    "bio": "Лидер на ДПС–Ново начало, което получи 7,01% и 21 места на изборите през 2026 г. – най-слабия си резултат от 1994 г. насам (според Уикипедия).",
+    "aliases": [
+      "Делян Пеевски",
+      "Пеевски",
+      "Peevski"
+    ],
+    "news_queries": [
+      "Делян Пеевски",
+      "Пеевски ДПС обеща"
+    ],
+    "bio_sources": [
+      {
+        "title": "2026 Bulgarian parliamentary election",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Bulgarian_parliamentary_election"
+      }
+    ]
+  },
+  {
+    "id": "kostadinov",
+    "name": "Костадин Костадинов",
+    "role": "Председател на „Възраждане“ (опозиция)",
+    "party": "Възраждане",
+    "party_short": "Възраждане",
+    "seats": 12,
+    "bio": "Лидер на „Възраждане“, което получи 4,19% и 12 места на изборите през 2026 г. (с 21 по-малко от предишния парламент). Кандидатира се и за президент: 12,55% (190 910 гласа) в първия тур на 25 октомври 2026 г. (според Уикипедия).",
+    "aliases": [
+      "Костадин Костадинов",
+      "Костадинов",
+      "Kostadinov"
+    ],
+    "news_queries": [
+      "Костадин Костадинов",
+      "Възраждане Костадинов обещава"
+    ],
+    "bio_sources": [
+      {
+        "title": "2026 Bulgarian parliamentary election",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Bulgarian_parliamentary_election"
+      }
+    ]
+  },
+  {
+    "id": "iotova",
+    "name": "Илияна Йотова",
+    "role": "Президент (от 23 януари 2026 г.); на балотаж на 1 ноември",
+    "party": "Независим кандидат, подкрепен от ПБ и други партии",
+    "party_short": "Кандидат (подкрепа: ПБ)",
+    "seats": null,
+    "bio": "Вицепрезидент 2017–2026 г.; стана президент на 23 януари 2026 г. след оставката на Радев. В първия тур на 25 октомври 2026 г. е първа с 34,76% (528 951 гласа, по ЦИК според Уикипедия) и излиза на балотаж срещу Андрей Гюров на 1 ноември.",
+    "aliases": [
+      "Илияна Йотова",
+      "Йотова",
+      "Iliana Iotova",
+      "Iotova",
+      "Yotova"
+    ],
+    "news_queries": [
+      "Илияна Йотова",
+      "Йотова президент обеща"
+    ],
+    "bio_sources": [
+      {
+        "title": "2026 Bulgarian presidential election",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Bulgarian_presidential_election"
+      },
+      {
+        "title": "PM Radev Says Progressive Bulgaria and Coalition Partners Will Back Iliana Iotova's Presidential Bid",
+        "publisher": "BTA",
+        "url": "https://www.bta.bg/en/news/1174956-pm-radev-says-progressive-bulgaria-and-coalition-partners-will-back-iliana-iotov"
+      }
+    ]
+  },
+  {
+    "id": "gyurov",
+    "name": "Андрей Гюров",
+    "role": "Кандидат за президент; на балотаж на 1 ноември",
+    "party": "Независим кандидат, подкрепен от ПП–ДБ",
+    "party_short": "Кандидат (подкрепа: ПП–ДБ)",
+    "seats": null,
+    "bio": "Бивш заместник-управител на БНБ и служебен министър-председател до 8 май 2026 г. Издигнат от инициативен комитет и подкрепен от ПП–ДБ. В първия тур е втори с 31,95% (486 232 гласа, по ЦИК според Уикипедия) и излиза на балотаж срещу Илияна Йотова.",
+    "aliases": [
+      "Андрей Гюров",
+      "Гюров",
+      "Andrey Gyurov",
+      "Gyurov",
+      "Gurov"
+    ],
+    "news_queries": [
+      "Андрей Гюров",
+      "Гюров президент обеща"
+    ],
+    "bio_sources": [
+      {
+        "title": "2026 Bulgarian presidential election",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Bulgarian_presidential_election"
+      },
+      {
+        "title": "Continue the Change Would Back Andrey Gurov for President",
+        "publisher": "BTA",
+        "url": "https://www.bta.bg/en/news/1175157-continue-the-change-would-back-andrey-gurov-for-president"
+      }
+    ]
+  }
+]

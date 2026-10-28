@@ -1,0 +1,7 @@
+.claude/
+data/cache/
+data/work/
+dist/
+logs/
+__pycache__/
+*.tmp

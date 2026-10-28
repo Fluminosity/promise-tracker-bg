@@ -1,0 +1,50 @@
+{
+  "feeds": [
+    {"name": "Капитал", "url": "https://www.capital.bg/rss/"},
+    {"name": "Дневник", "url": "https://www.dnevnik.bg/rss/"},
+    {"name": "Медиапул", "url": "https://www.mediapool.bg/rss/"},
+    {"name": "Sofia Globe", "url": "https://sofiaglobe.com/feed/"}
+  ],
+  "google_news": {
+    "hl": "bg",
+    "gl": "BG",
+    "ceid": "BG:bg",
+    "first_run_window": "30d",
+    "window": "10d",
+    "topic_queries": [
+      "цени инфлация мерки закон потребители конкуренция",
+      "Висш съдебен съвет избор парламент",
+      "бюджет 2027 дефицит пенсии",
+      "План за възстановяване и устойчивост плащане Европейска комисия",
+      "главен прокурор съдебна реформа",
+      "олигархия корупция разследване Пеевски",
+      "референдум лев евро"
+    ]
+  },
+  "models": {
+    "chat": "qwen3:8b",
+    "embed": "bge-m3"
+  },
+  "backend": {
+    "chat": "ollama",
+    "matcher": "auto"
+  },
+  "limits": {
+    "keep_news_days": 150,
+    "max_news_items": 4000,
+    "max_judgements_per_run": 400,
+    "max_new_promises_per_run": 8
+  },
+  "thresholds": {
+    "embed_cosine_min": 0.40,
+    "keyword_cosine_min": 0.04,
+    "keyword_top_k": 25,
+    "duplicate_keyword_cosine": 0.5,
+    "evidence_confidence_min": 0.6,
+    "verdict_confidence_min": 0.75,
+    "verdict_min_publishers": 2,
+    "verdict_min_publishers_strong": 3,
+    "duplicate_promise_cosine": 0.66,
+    "discover_confidence_min": 0.75
+  }
+}
