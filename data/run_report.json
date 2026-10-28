@@ -1,12 +1,18 @@
 {
-  "started": "2026-10-28T21:07:28+02:00",
-  "mode": "apply",
-  "chat_backend": "external",
+  "started": "2026-10-28T19:30:02+00:00",
+  "mode": "all",
+  "chat_backend": "openai",
+  "fetch": {
+    "ok": true,
+    "added": 69,
+    "total": 1476,
+    "seconds": 10.6
+  },
   "judge": {
     "ok": true,
-    "answers": 8,
-    "attached": 6,
-    "seconds": 0.0
+    "pairs": 100,
+    "attached": 0,
+    "seconds": 20.4
   },
   "verdict": {
     "ok": true,
@@ -15,14 +21,13 @@
   },
   "discover": {
     "ok": true,
-    "answers": 0,
     "added": 0,
-    "seconds": 0.1
+    "seconds": 15.0
   },
-  "finished": "2026-10-28T21:07:28+02:00",
+  "finished": "2026-10-28T19:30:48+00:00",
   "build": {
     "ok": true,
-    "news_items": 1437,
+    "news_items": 1476,
     "auto_evidence": 380,
     "auto_promises": 2,
     "status_changes": 0,

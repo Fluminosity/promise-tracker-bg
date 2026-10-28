@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T21:07:13+02:00",
+  "updated": "2026-10-28T19:30:12+00:00",
   "items": [
     {
       "title": "Снимка на деня: Германските власти съветват гражданите да поддържат \"авариен пакет\" в случай на извънредни ситуации",
@@ -3379,6 +3379,28 @@
       "fetched": "2026-10-28T21:07:10+02:00"
     },
     {
+      "title": "Китайският вариант на совалка за дълги военни секретни полети бе показан от САЩ",
+      "summary": "САЩ показаха първа снимка в космоса на таен китайски космически кораб. Аналогът на американския военен космически апарат Boeing X-37 се нарича \"Шенлун\". Кадърът е от 2024 г. и е дело на спътници, собственост на компанията...",
+      "url": "https://www.dnevnik.bg/burzi-novini/2026/10/28/4973216_kitaiskiiat_variant_na_sovalka_za_dulgi_voenni/?ref=rss",
+      "publisher": "Дневник",
+      "published": "2026-10-28",
+      "id": "c9161a57971b",
+      "politicians": [],
+      "fetched": "2026-10-28T19:30:02+00:00"
+    },
+    {
+      "title": "104 вече са сигналите за нарушения на Изборния кодекс за агитация от страна на Румен Радев",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQeThKQ0tqZWsyb1RGQXdBZ0M5RnB6UlVBV3F1cmZUMklWS3ZHRHBydDRtbXBFSGd3bEg5RUppV0dHUnhvd1FNQjJBZzhINEVoZFdzNWFiT0I2Nk5TSjh1UmgxTFFCbVNEQlgyeDdJYnUtamw0V2EwR2NpWm1xWjg0bDZTb2lXaDdtQklWanJscXRkbjlLRXZ1N290alE5OFhlZ1BQSWpWM0h5dkdGZDJlaEdNQnhzYU1RMnZHZU5OY1lYSkcwWjRrNk1NcnQ?oc=5",
+      "publisher": "bTV Новините",
+      "published": "2026-10-28",
+      "id": "681d4d0d0ed8",
+      "politicians": [
+        "radev"
+      ],
+      "fetched": "2026-10-28T19:30:05+00:00"
+    },
+    {
       "title": "Снимка на деня: \"Оксфорд Стрийт\" става пешеходна зона",
       "summary": "",
       "url": "https://www.capital.bg/politika_i_ikonomika/sedmicata/2026/10/27/4972029_snimka_na_denia_oksford_striit_stava_peshehodna_zona/?ref=rss",
@@ -5667,6 +5689,45 @@
       "fetched": "2026-10-28T21:07:03+02:00"
     },
     {
+      "title": "Мария Казакова пред ФАКТИ: Ниският резултат на Йотова е вот на недоверие за правителството на Румен Радев",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZzRjaEF1aDZMX1dobHFocFRzckExQUxTbXdkdVpoOWd2YWVkM0FLV1U2VVFPSU1VV29xNWFCVGNzeFN3Y3ZnOS05V0FINDh1dHF5S0F3UjJOSEhwNHZXQmtOVXhRWk1KZ1AwU2lkVERhTno1eUpfVkxZU3FKRURfQ1pkZERKZXVFT3VUNFRzN0N4X2RGRlpGa1gzVkhKWndyU0xXNkZJWkdyVzYwSTdEbFJBeEwzaWFLOGNxSDZ3ZlZUMEZ2Q1pnb0ZULTNOeXVPQWc?oc=5",
+      "publisher": "Fakti.bg",
+      "published": "2026-10-27",
+      "id": "432ca98c0e03",
+      "politicians": [
+        "radev",
+        "iotova"
+      ],
+      "fetched": "2026-10-28T19:30:05+00:00"
+    },
+    {
+      "title": "Говорителят на ЦИК: Под 3% е разликата в резултата на Илияна Йотова и Андрей Гюров на президентските избори",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNWm5iZWNOa0Y5U0hyemZUWF8wZ0lBYkNlcU5keFJVVjdQNWl5bHFlOWpJVElxQjhyWUJsMWRITXI5ME9ZTXBfWElIZm1SSFNpQmE2OWhKcGNGcUZxSWJ3b3JxaEVuSWlBelY2ck4xYkdudW1qZ1hDTDZBZzdicnltbjJ5cExnaTVES1YySTl0VmFnOHFzemZOZTNHd1lXbFRqcndHOGc1SUZKakg2OTh1eWw0N2p2MWEwUnEwdzdldmZzU0JOdDZvOWw2Q0xJdVVkdlFsYnZ2RjFycm15YlJWTnVpMmVJbUwzNzVV?oc=5",
+      "publisher": "Пловдив Нюз",
+      "published": "2026-10-27",
+      "id": "d5a7769c6849",
+      "politicians": [
+        "iotova",
+        "gyurov"
+      ],
+      "fetched": "2026-10-28T19:30:09+00:00"
+    },
+    {
+      "title": "Дебат Йотова - Гюров ще има, Кандев постави условия на Вълчев",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTUdubVVORmw2aXZJaEZZaDd4c2pKNlVIU2RrbWtwV2ZmSUJpc2lPcmRDUTByY3RQWmpjRHhRTDQwLUQ4WTNBUk5Vc1hxMWZJV3ZYUFM1WndZMkxLV3p2RzBqSlZhc0V1TkJaOTVMdXVHNFpuYzkxdVM0U3llQ0hKV184NE9tNGVDQW9iZ0RxTlI4MmV3VjEwQkRGN2ZONExDMTlKZFpubw?oc=5",
+      "publisher": "Dnevnik.bg",
+      "published": "2026-10-27",
+      "id": "7c7763d2f508",
+      "politicians": [
+        "iotova",
+        "gyurov"
+      ],
+      "fetched": "2026-10-28T19:30:09+00:00"
+    },
+    {
       "title": "Румен Радев: Следващата седмица ще представим Бюджет 2027",
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONXB1ZEtXbFZhdlQ5LUJnMS1Xczl2WjFvVzdMQmFJQWZ2dHMzNnNTcVpWVlJJUzdWRG9HZHFjWFBFQU1aUThfeW1ESGhjVFFRelRjUVpCVXpyRHAtSWFsX3hiSGw4MktfU2JjcWRsSV9hbElrR3BXZVVmNHBDSXFPYnkyLTR2ZTVBdFZMaklPQlJWVHROamNxOFJCd3hPMnFacWpn?oc=5",
@@ -7901,6 +7962,118 @@
         "gyurov"
       ],
       "fetched": "2026-10-28T21:07:10+02:00"
+    },
+    {
+      "title": "Илияна Йотова води пред Андрей Гюров с едва 2,5 пункта при над 95% обработени протоколи",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQLW5QeWZNalJidXRMbkhfZEhDOGVmZG50bEkyRGlTbUE4SDhQZ2NMLTJ5aDFhUXBjTVQ3alhBancydnJSQVREWWctSmRNVVAxZ2t3Qk0weVVDaWlmZ0ZBSU5qamNfa3RpbmNYNWc4SnVDeVRaNlBWZ1lZMGw4ZTlRS2pSeGVzLWtXQVBRUzQ2MjEySUdiUUZaX19manRsaUNlWDlxVngwRGR1VDhUaTlSM0thV3NsVHZxbzk3NGRkYXg3VklvMkEwSktNNE1aUQ?oc=5",
+      "publisher": "Investor.bg",
+      "published": "2026-10-26",
+      "id": "c76944a23355",
+      "politicians": [
+        "iotova",
+        "gyurov"
+      ],
+      "fetched": "2026-10-28T19:30:09+00:00"
+    },
+    {
+      "title": "Крум Зарков: Оспорван първи тур с изразен победител - Илияна Йотова!",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMXhwcmdYMWJvcEVfb3daX1RYVHNsRTl1cEJuVXdJLWFncFJoWm03RWRsZ2hIVlVLcE9yWnVPYzcyYjVsQnFSQl9TbUhNdnNUbkxWZVVoR3lNNHdqd1NLX0tKaWxkRTJGRElmUW03d1JDbWxPLUR0RjNkcU0zRnlQZjB6QWlzZldSbGhTNzZYTnVrbl9QcXI3LXBqVUFOYTd4Qkc2TTVqRWE?oc=5",
+      "publisher": "БНР Новини",
+      "published": "2026-10-26",
+      "id": "511809ff704d",
+      "politicians": [
+        "iotova"
+      ],
+      "fetched": "2026-10-28T19:30:09+00:00"
+    },
+    {
+      "title": "При 61,55% обработени протоколи Илияна Йотова и Кирил Вълчев водят с 34,8%, втори са Андрей Гюров и Георги Кандев с 31,4%, съобщиха от ЦИК",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQa1VMekxra0ZBX0ljNEhPSkpKZjQ1ZG5pWXVma2h5RHNZZ0hHc3Y5SG80MUMzN0JYYnd5MkRWNDJldTRhRUo1Z2pXazhNQ0x6eVQtOE1IRHdjSmNkVHhoVVZ5a1BnWTNoZjg3dVpDQ1BaSF9yb2sxRjF3LUQ0S3V5VkJDNHAxMmZCeDhiVjNMYWVzNEo1SjBTSmVwVFdmWGlROGxGeUZBLURJYjVYdDNrclBRWWlnVnZUYmdTaDJn?oc=5",
+      "publisher": "БТА",
+      "published": "2026-10-26",
+      "id": "de92c6f34a51",
+      "politicians": [
+        "iotova",
+        "gyurov"
+      ],
+      "fetched": "2026-10-28T19:30:09+00:00"
+    },
+    {
+      "title": "Окончателно: В Смолян Илияна Йотова печели вота с над 47% от гласовете",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaTd6R3hheDFtc210NGVvbGJjcEdaRlpoYVVlYVZ4Y1hTQWd0TXpyU0hOejlIR2pKb0xWWGNFYndDZ2sxOFBrMk5yUERpdnhfSzVfbWlRbnljZUtudC10RGFCZ0NRa1BwQWJmN1dQUWQyNW9NZzhXUW4zZHNqcWU4LWV5YzJscFczd2RldHhCNGxwd2xmaDFOSnViZ2p5ZE9vaGxlRGJKRkg?oc=5",
+      "publisher": "БНР Новини",
+      "published": "2026-10-26",
+      "id": "4b8cc09eb0ec",
+      "politicians": [
+        "iotova"
+      ],
+      "fetched": "2026-10-28T19:30:09+00:00"
+    },
+    {
+      "title": "Изборът на Илияна Йотова за президент би укрепил позициите на премиера Румен Радев, пише румънски вестник в коментар за вчерашния първи тур",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNUR0NDhqTXd5T2ZvaFg2X0lMYUdOcnJ6bmZPenAtR2prVm1IZjVtNTVXenFxOUEwYTJQZjNlLXkxUDlfZmZGNU5KMzRvT3FHdHJ6c01jcWJ5dXhXV0p1cDJjQjByRV9DZW5wNTlESERSaGlUMWFuZ2pZT1JmbHhnaG5yYzVTMEt4OXQ1b2ZEVDJyMk03emFiNS16WGF0LVVyZmk2bjlwMTVUYlQ3aWZDU2NTWFc1TDVDRkN3VFN0VHI?oc=5",
+      "publisher": "БТА",
+      "published": "2026-10-26",
+      "id": "2b0d69ab1f56",
+      "politicians": [
+        "radev",
+        "iotova"
+      ],
+      "fetched": "2026-10-28T19:30:09+00:00"
+    },
+    {
+      "title": "Илияна Йотова и Кирил Вълчев спечелиха в Карлово и Сопот!",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxOTXkwSExCZTJrYmliR0xfa3BteXpzNHBMQjdTX0pGY0FFT0wtTUdGTWZpRUhEV1NjZl94YjhEaFdEeWZFUS1GQm5sdlR3RUpzcnp6WTR4ZmdwUnM1WENsZ0ZtakY4emotaHRKSVJqN3ZGSWRtckpkN2ZoWWJnanlZbHFJTDVWRzNhY2xxV0wtY3U2REJSUlBWYXg4NkVxVUVjRDdCbHpsODItYm9ib1UxeVBRU0NzRjJ3eEx4UnczRGVocEg3SlZtcUV5ZVd4Q2hsYXZldFA0ODZkaEh2QWM4UVYxZWYxSmJGSWJwdGFlcTdFV2xnWEs1LWptQy1YMjhpdTFUR2hwZHhybWhYU0R2OENhWkNEVjEyZUl2ajA4M0ZNNlJHR1hqWnZqc0RDM3ZTWkxyX1FpajFoczR6eEo2ZGRkREpTMGRzMHJHZlBFNC1KbTJtaWRxTg?oc=5",
+      "publisher": "KarlovoPress",
+      "published": "2026-10-26",
+      "id": "bd80a8edf439",
+      "politicians": [
+        "iotova"
+      ],
+      "fetched": "2026-10-28T19:30:09+00:00"
+    },
+    {
+      "title": "Илияна Йотова и Кирил Вълчев печелят вота в 22-ри МИР Смолян с 47,2%",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZGR0UFN5OWE1TXdlOUhxV3FRZXMzVXhSdDRGM1RzVVZGakxnWXFxMzJvMUJJVzJPTEtKNEFBQUpHemNYOGFfMzdSQ0pINGdvZHBDTjhUQW9XRGZycWpaRFNTdHc4Zy1qM2x4YmNmN1dFQ1AtUG1kbkQyRVJieW9rM092dDliVS10Sk5kc3g4eE8yZDhvQVB6c3Q5R1hfZmpWLUZ2OWY2UTdESjUwYi01ZGt6YVJSZ0d4N2c?oc=5",
+      "publisher": "БНР Новини",
+      "published": "2026-10-26",
+      "id": "81f04e5d6a26",
+      "politicians": [
+        "iotova"
+      ],
+      "fetched": "2026-10-28T19:30:09+00:00"
+    },
+    {
+      "title": "Илияна Йотова и Кирил Вълчев печелят президентския вот в област Хасково",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOWEgzdG1Pakw4ckZ4eVJ1MnVEU281Wm52eXM4TFgwX3FFamFnblpzTnd5RUt6c2RHZFlaMGZuUjlGbnNZQXhEcG9MRWhoWmpqWi1Gd0FkbVhuNnEyX0VXVjBqUDc4V3YyeWE4TzYxUndNcXc2SlMyQjZZOXFGbW5vY21Sa18yRU1idlVQaEVsdkpyYktMLVNJOXhGQjVGN05pSEl3R3NEQkZGODlfNEJkR0tSeWJLTm5wNnJpQVF4Rm9UT29aOFE?oc=5",
+      "publisher": "БНР Новини",
+      "published": "2026-10-26",
+      "id": "4f30f9c128f1",
+      "politicians": [
+        "iotova"
+      ],
+      "fetched": "2026-10-28T19:30:09+00:00"
+    },
+    {
+      "title": "Йотова и Гюров отиват на балотаж на 1 ноември",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObWtfUXlibzc1aGxrQ1ZTbW1TRnNxNXRTSzU0OU1sdWRrSlhHc3RmLUhFSjhrSklFSm1WNkZoMkYzNFFrNXhWcUE0U3lsZVlYRDVhbFlVU09HdmVQcG8zdWJHZ1loVGdGRlFZUmJGMEFEV3d6Ukl6YU04QmItdl9DRGRtWk5zSEozUHFka3RXMmdhdnBoOEY1SmVDc19nMGsyYnhn?oc=5",
+      "publisher": "Ruse news",
+      "published": "2026-10-26",
+      "id": "3a836a6a1028",
+      "politicians": [
+        "iotova",
+        "gyurov"
+      ],
+      "fetched": "2026-10-28T19:30:10+00:00"
     },
     {
       "title": "Премиерът Румен Радев призова за масово гласуване на президентските избори: Легитимността на нашите институции произтича от нашия вот",
@@ -10737,6 +10910,80 @@
       "fetched": "2026-10-28T21:07:03+02:00"
     },
     {
+      "title": "Илияна Йотова: Гласувах за България",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcS0xU0lYSG81SEV6eU5JZFpsaVRNc2xRNG1vbnlneldaME04T3hkYk5TUlE0V2RuQXB6eHYyckd0Mk96aHp3eXBOZ0JZUHZwMlhvSDN6RDdUNnZMT0d6UU9CWWd2aXBST3B0NHd0TlVFelpSeE5ZVTFPazBOaUNKbTJiRQ?oc=5",
+      "publisher": "БНТ Новини",
+      "published": "2026-10-25",
+      "id": "37dcb8745f93",
+      "politicians": [
+        "iotova"
+      ],
+      "fetched": "2026-10-28T19:30:09+00:00"
+    },
+    {
+      "title": "Илияна Йотова води след първия тур с неочаквано малка преднина пред Гюров",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNc3IxX2R6S0REaEtMRmVjMk9rM2VqT0Z5UDdGUUpGZW9icFZiZmQ4cjVTVmJFcDJIUmR1NVNKVlB5bC1xdmJLMmtQUU05ZDdERlYzUGFoelkyRkhKSktRSk1nSmhUWm92VFRjT2doZ0lPRVZpS2liNmpYYkR2VUEtbVZzTjRUUDhZckd0UThDWnN6LWw1ME5xeWlCbmZGbnE5TGdIa2xqamk?oc=5",
+      "publisher": "Dnevnik.bg",
+      "published": "2026-10-25",
+      "id": "da88389ced16",
+      "politicians": [
+        "iotova",
+        "gyurov"
+      ],
+      "fetched": "2026-10-28T19:30:09+00:00"
+    },
+    {
+      "title": "Междинни данни на РИК към 22:00 ч.: Илияна Йотова повежда в Бургаско",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPeWcyUlB4T3ByR0g4SVZyU0hUN3pqM1RFMlNWeFF2ZUpqdXB2aFdNSWZjakM2dV9IRmZaX2tRNmpvbVVYVmFNazBRZTF0T1EwekJtZGU1OWozVll5czM2ajRVQ3Z2UHlhUVhKR2lpUDlLNXFtR243aEsxUW1xVi13djZ4cFNUMjNPTDFsQ2R2b1ZRbEZkOUk2d0tEdVJMalhmYmIzOTdqVHNCeUk?oc=5",
+      "publisher": "БНР Новини",
+      "published": "2026-10-25",
+      "id": "17162510345a",
+      "politicians": [
+        "iotova"
+      ],
+      "fetched": "2026-10-28T19:30:09+00:00"
+    },
+    {
+      "title": "Данни към 23:00 ч.: Илияна Йотова води в Бургас при 21.52% обработени протоколи",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQek45RGZYQzg5ZzhiUFd0RUxRRVFreWx6MFZDS2hUVDRKaVZGSHRQejIyMjJiMXhGS1ZQNFpDelk0LU5JQVJzUUhQbTlRU08tRnFyemlMZ0JldVE1Rm9TT1U1czNaLVRBMlBlWmo0MkU4dXU5MF80Z2FUQWZ5TllMdEkzWWhQQThIcmU3UF9wVmN0OFFfU19VX0xwXzA3UV81ZlIzVm93cWdLa3M5VXhPWndUSGR6alNwUGRmQjNn?oc=5",
+      "publisher": "БНР Новини",
+      "published": "2026-10-25",
+      "id": "13265a61d9c3",
+      "politicians": [
+        "iotova"
+      ],
+      "fetched": "2026-10-28T19:30:09+00:00"
+    },
+    {
+      "title": "Към 20.00 ч. Само 3% разлика между Йотова-Вълчев и Гюров-Кандев, сочат данни на \"Мяра\" (ОБНОВЯВА СЕ)",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxObkRlY2c1bDdJdm94OUkxcVlTYmliZC1LU1Z3N2ZOMnBOc2ZiczJlT04xczc2RmZQck82akpkOXdoNFNUQ3NYZlZUTGR4VHIyQzhVdlo4bFhaTDNSSlZrdURQdnpfYnRoT1JsV0Zrd0c1cUFaQmwteGdSdURXZDdmbTAxRTAzR0drSTlHWFA4dzB2TzYyVUJsSnBGVjFjcDVTVk1JOFhtcG5SR0FlQnpPYnVUQ09pMm9fVEVlZHVtUllBVXVDNGE0SkFrd1FfenEtVjVyMS1rWQ?oc=5",
+      "publisher": "БНТ Новини",
+      "published": "2026-10-25",
+      "id": "0f46966852df",
+      "politicians": [
+        "iotova",
+        "gyurov"
+      ],
+      "fetched": "2026-10-28T19:30:09+00:00"
+    },
+    {
+      "title": "ВИДЕО: Илияна Йотова: Не искам да бъда управлявана от сглобки",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMVVEYWFFM29kN0tjQ0lNdFdDZm5zSkUxSHVHaWZWSGh0bTRZSE5FMU5YRnp2Zk95a3ZTWl96YXVvclZVUlpUOTNSdzBzX3NvdGgxeVBwbk5USWl2S2JqaTZNczh1M1hrOHR5SFB2RXpMemZIN01rdTJjb1JZV1RMNHY4OFFWYlJ6dUNtMmRsZm5VSmdkVVpWSEtVNA?oc=5",
+      "publisher": "Евроком",
+      "published": "2026-10-25",
+      "id": "da503971f58b",
+      "politicians": [
+        "iotova"
+      ],
+      "fetched": "2026-10-28T19:30:09+00:00"
+    },
+    {
       "title": "Днес прокурорите избират своите четирима във ВСС",
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBGaDBDajhOaXNSQXZ0UlFLSXRKUGJ1elhhUC02WVdRbGNGS216QUVGYWxmV3FXMlhLSEphaTc0TDFQRnZMSm82T2ZWYklCTHdMeWcwaGw0UmFxQXlZTE41dzl0ajYtbVJSZEc3QVZGaVRYVGNlR3pINzFn?oc=5",
@@ -10785,6 +11032,36 @@
       "id": "68517b3d6eab",
       "politicians": [],
       "fetched": "2026-10-28T21:01:20+02:00"
+    },
+    {
+      "title": "Прокурорите в страната гласуват за четирима членове на новия Висш съдебен съвет",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObHd2QWVUV2RIX040S3laUk5ndTVYUkw2ZmhtSHFod2dPLW5sQzBMNWc5MVhIXzVITDBvMzgzcVRMMWE0OXBLeDNBcVNGbGlCbU93UHV6OFgydmwyOFRyMDlFU3VMVDdWU25ublc0ZklROXVYWE9YNmFrTjBoVGFTb1NJX0lxUU9tZGhudm9JaUFzYXVBQTdyOUp1eFFabFFZM0VUVmhYUm5pcWQxSzlRSExCQ1p2aXdfNGFZbG1PVnFxQQ?oc=5",
+      "publisher": "БТА",
+      "published": "2026-10-24",
+      "id": "217695457ed7",
+      "politicians": [],
+      "fetched": "2026-10-28T19:30:11+00:00"
+    },
+    {
+      "title": "При сто процента избирателна активност приключи изборът за членове на ВСС от квотата на прокурорите",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMlJtLVBWOWpTYkl6am50dXFQME9QOUFmT1NKZDNBSWxDdHhHMGU5Y3R6MUtGMjlJYkJzLVpsN0hsbzRTRjNUUlA4Wk83TTJXRzJoeWVBMWRIMUlRVlltUnlnV0RoUFAzZ3ZEWVVqbUpVSUhpSU55SWxreWZzb25NNWltS1hNN0R3ZFlUYzFLdmlMNmRxY1MzN24zWFNqV1hwclQ0UTFSYkNlV2o1WWxIdjE4RFdVWHF0TDBfOEtKSzY3WXZ0Ync?oc=5",
+      "publisher": "Вестник \"ДУМА\"",
+      "published": "2026-10-24",
+      "id": "bac409c49899",
+      "politicians": [],
+      "fetched": "2026-10-28T19:30:11+00:00"
+    },
+    {
+      "title": "Прокурорите в Русе гласуват за членове на ВСС в спокойна обстановка",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcnRQMm5aZjdsc0pDREZrOGpIU3NWbGh2TERLdGxJOFljWGhISkQxNHR2dmZyTVc5emNMOFZ6TWhRYUdVUU1oVHh3WWR1S1VCS3lDeFdHODM5OV9GNk5FWUlGbWIwVi1JeVVmc0NoZE1FcVlIS3A5Mjd0cE8zM1NNV1ppdzRSYlN2cTRob0VEa044eGIxVUQ5bnhicm40aTZYQkV3OE5jTEg1aWlN?oc=5",
+      "publisher": "Ruse news",
+      "published": "2026-10-24",
+      "id": "2c0818de9f4f",
+      "politicians": [],
+      "fetched": "2026-10-28T19:30:11+00:00"
     },
     {
       "title": "НСО започнало щателна проверка на случая със Соня Колтуклиева, обещава най-строги мерки",
@@ -11290,6 +11567,50 @@
         "radev"
       ],
       "fetched": "2026-10-28T21:04:48+02:00"
+    },
+    {
+      "title": "Битката за \"Дондуков\" 2: Разговор с Илияна Йотова",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNd2pwS2IwZXppWHBIUHV6YnMtUlhNWGNncXd6TkJuaHJjcG9ROXFldk8zU3VWaDhqQkdiVk0tRXdRU0VuNkZYOTYyN3lrRE1vVWtvTGRQUWNMSTAzU1pMX0tvWUZEREt6Uk40aDBJUVl3S3M1NjRsZHN0UmRwUktmWXh1eWhJVHNqVmRIRmFReGZXanhTbmpleXItcm8?oc=5",
+      "publisher": "bTV Media Group",
+      "published": "2026-10-23",
+      "id": "207a1d7e8824",
+      "politicians": [
+        "iotova"
+      ],
+      "fetched": "2026-10-28T19:30:09+00:00"
+    },
+    {
+      "title": "Илияна Йотова поиска оставката на началника на НСО Емил Тонев",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOLWtCODNTT0o2dFFoc0ViSDdaZU5RRVRKWlV5aDI1aUo0WDlrdllaR3RnRjk5cWJLRGs4T05VWUp4RW9rbks4WS04UnRzNk5PaUVkZWtjOW1BT3VyNDREVnJBc25tQ3dRbGN4cUlCeTNUYkl0Nnpkb1pUTGtrQ194Smk0amZpQkNTSmk3UlpkT0ozeUpLUHprMkRvREdFb2Y4WTg4cjNPOA?oc=5",
+      "publisher": "Dnevnik.bg",
+      "published": "2026-10-23",
+      "id": "f5f8d0cd2bd1",
+      "politicians": [
+        "iotova"
+      ],
+      "fetched": "2026-10-28T19:30:09+00:00"
+    },
+    {
+      "title": "Иво Сиромахов: Евроком остана последният остров на свободната журналистика (ВИДЕО)",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbUtpZjZaRkg2bHlFbDduNXBrNUpYSDdRZ0tEemtxbXpoLTUwY3ZSekhWTXhvYkMxR2Q1SWJ5T1N6aW9QLTJSVE9WbW81dThoaC1TTTFkc2Qtbmtvc1kzXzVwMWdEazVyVU5tOTVPRTlVQWtzS3hEWUE2LWt6RDJaQ2xOTnFfbXFyNFhlVHlJUlZZLW9YSUNUVl9naWZ3R3g2VTgwcnhVX0E1QQ?oc=5",
+      "publisher": "Евроком",
+      "published": "2026-10-23",
+      "id": "055cd00f7d3e",
+      "politicians": [],
+      "fetched": "2026-10-28T19:30:10+00:00"
+    },
+    {
+      "title": "Яна Данилова: Разходките не са достатъчни срещу остеопорозата, трябва и натоварване (ВИДЕО)",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOExDbGNzNE5WS0RqZUxUOHZqVjdQTC1VQWlodnVub1VKWG5fWHlzeU9BSXpQT3g1T184NktmNk9jRWRHYlVkQ3JJcC1Dd1FfV3p1R1FueE4yWGQxZ1AySk5xUW1RMDZRNDd3NUltTmFueGVmWXJiT1dZeklRU25iTVJGakNEVUpyeW85T2VMR0NibG1QdGxaeENJeXBHYTNrWUgtamw0amZvZWFLR0NmeVg2RVlQQm9l?oc=5",
+      "publisher": "Евроком",
+      "published": "2026-10-23",
+      "id": "02d675e74bc2",
+      "politicians": [],
+      "fetched": "2026-10-28T19:30:10+00:00"
     },
     {
       "title": "Румен Радев: ЕП се използва от български евродепутати с ограничена политическа легитимност в собствената им страна",
@@ -12211,6 +12532,76 @@
         "gyurov"
       ],
       "fetched": "2026-10-28T21:04:51+02:00"
+    },
+    {
+      "title": "Проф. Мария Пиргова: Съгласна съм с тезата на Румен Радев, че не е време за аматьори (ВИДЕО)",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQaU5UQ0dudFIyTXZfVUlnMHJWdWVNUGU1SThzZFRzWlgzSGhWY2pJNFNHdm13VW9fMzdrWG1Ka01mRlFrdUs0Y3Yza1ZJd0dvakNTVTNKdEFZNk9FQWhqZUhpYkZfWXBGZnBIUng1YjhqODlPcjhsb2VWeWQzWDJKU20xUGdDSHFyTU1UcUxhVzZsLUpuWTc0TWRsaW95XzBrcDBKQ21nQWd5cEJmYlE?oc=5",
+      "publisher": "SafeNews.bg",
+      "published": "2026-10-22",
+      "id": "371349aee2ff",
+      "politicians": [
+        "radev"
+      ],
+      "fetched": "2026-10-28T19:30:05+00:00"
+    },
+    {
+      "title": "ДПС: Кого страхува Радев?",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA3amJzTkJrQl9tVnJ3TzRVbzNqQjBHODF2S2RhQl9pNnlGQTRNN0lxR0oyVXdjMVUweVg3TEFEMUpnV0ZtbVJTWTFGcHJweFUtb2ZsbHNn?oc=5",
+      "publisher": "Publika.bg",
+      "published": "2026-10-22",
+      "id": "6a0d88f0222a",
+      "politicians": [
+        "radev"
+      ],
+      "fetched": "2026-10-28T19:30:08+00:00"
+    },
+    {
+      "title": "Проверка на факти: Ще живее ли Костадинов с \"две минимални заплати\" ?",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPY2hnS19YWHFZdlV2OV9mVGdIMHROUjh5Tk9fQUZrZTlsVlhSaVJ0amtOYUkzYzNIOEU5MFVwR3VTc253bktmVXlKUjFfUnFQeDZFZlVncWdhVDAzOHJVc0lSbHhOc2xPYnIwOUQzN2pSMDAxdVdkS3ExUnR5TmhDcFlzWGdaMmpJYXNNeHgtc3NJTjRkLUJ0MFdWcFIzWkRpT01lMTdaQ1NmYm1wREJxQlRubkt2UFcxTlE?oc=5",
+      "publisher": "Mediapool.bg",
+      "published": "2026-10-22",
+      "id": "1b205339818d",
+      "politicians": [
+        "kostadinov"
+      ],
+      "fetched": "2026-10-28T19:30:08+00:00"
+    },
+    {
+      "title": "Илияна Йотова и Кирил Вълчев закриха кампанията си с послание за обединение",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi5wRBVV95cUxOUzh6MnhjTjU2Nm9ZdThaLURGMzJ5R2dHTmlnZ25UTzEwQWp4VDlBMUxhYmVVV2dNZkNNMHhLQUFVaDJjSDZGSTBVelhPejRTbEg0SWs2dXlxdmVxYlAxOFJyY0gtVWhEWUEtd2hKVVZTVVlPOTlfek5JdnV3TkdYdm5iY2pHdU5fYlhGNGZEbWFGRFRzSkd1bm1tSDJOTS1DVGJrdjhwN29QZ3B0WUI1VjB2RWM4Mk9ZTDBXdzc2aXRIN3dTdnJaVXBlaHNSZHRldW1YeDFkUFlNaU5WbzlzdmFGTjM0VzloZ2NhbWFueUJnc1J6bXBBaEs3dXJVeldWT2p5b0hUNkx5WFZtUTA4dWtSMmIxLUZIcC1FTUJDOTJhenNTNUxlQkFBcnFaMWd0N0ZWRWNuS2VMVEVONnFvWTBHMmFlTnJoZm1Hc1hDVjN5Q2d0ZFNYSXltNFNNblFfaGZ1a2dEWFNlVEgtVU80eUF6NzVUYW5tQUJoUF8xU3VtenFoLTRUQnlCdmgzT1hzam9HSk5HVjFLTThuUmhFZEExZjRsVHE3ZE5HUTJtWnZ2MkJRN1IxdDEydUdpbEVWY0h4SUo0SVNKeDVUYlFGNHZyaFNKMGhWRkc2ZTRGMkFCUkZILTVyam9xd3VfOE1XRkFRWTdJWVpqZDVpbWE5dHBJRkswc1RqWkNjWTFFa3lSemQ1dV9KTWpVenJHWHN2WWN2eHlsU2hrMW5udHVJblBBc0hSNGZIb2g4UE42M3Y4Vm9BbVBoeVc0QUUyMURMQU9kTVdvLXpqV0g3NnRsczRwZ2RXX0E?oc=5",
+      "publisher": "nova.bg",
+      "published": "2026-10-22",
+      "id": "589c92a740ac",
+      "politicians": [
+        "iotova"
+      ],
+      "fetched": "2026-10-28T19:30:09+00:00"
+    },
+    {
+      "title": "Два дни преди вота за президент: Илияна Йотова и Кирил Вълчев закриха кампанията си",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQzdtS25GWXd1ODV1VkZXRW9zdW5rUngydk9oRkIwU05Kc2dISFItMDVjZUhpX3BYTTRnaXJ4M3l4SnFKNHlEYl92eERQa3k2YTUyZTVldGIwY0xTS0RvWlBBZktMbjBFTFVyb0tDYkFYVmRDZGVHVllkM1pHODlwTGkycE0tZzBrd28yNk00MHdJcEFfUS1XLWdlSjZ1bVhEN09kaG1sMzFnODdzMDNFX3RjM2d4QnNlR0t5cEUwUQ?oc=5",
+      "publisher": "bTV Новините",
+      "published": "2026-10-22",
+      "id": "f3052416aaae",
+      "politicians": [
+        "iotova"
+      ],
+      "fetched": "2026-10-28T19:30:09+00:00"
+    },
+    {
+      "title": "Константин Проданов: Минималната работна заплата догодина със сигурност няма да бъде под 660 евро",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1yMVBFX2NIaDAydnhfTHNTeWx6cVcxaE5BTk1fQ25TNHNlZHBuTGFlOE1yVWJqaU5lWElnX0dBWXFHRm81U25Ma3FqVllwNmUyU05hR2FvVmpQVU1h?oc=5",
+      "publisher": "www.24plovdiv.bg",
+      "published": "2026-10-22",
+      "id": "cee67c8bb513",
+      "politicians": [],
+      "fetched": "2026-10-28T19:30:11+00:00"
     },
     {
       "title": "Румен Радев за операцията в Сунгурларе: Схемата започва да се разплита и очаквам това да е само началото",
@@ -13945,6 +14336,28 @@
       "fetched": "2026-10-28T21:07:03+02:00"
     },
     {
+      "title": "От телевизията през партията до една от тримата: как Илияна Йотова гради политическата си кариера",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSEtVQTdOa1hBTUM1dnBqUER3RTN3YWcxQXlpNlBFaTFFV2hQWTR0QUlzZXRCWFBfbVdkRWs1eGwtVlA0WVc5T3JwbTlYQzJrdlkzN2ZGSjdNWnpZQzUwSnFudU1OaVd6c3QyTVAtTWZPeHI4UUZQWU1WNVNQaEhKSWRKa3VUOG1tYjV2d21NYk9QRmJTa2lUVzdyODBjUElSVl9EanRGR0w?oc=5",
+      "publisher": "Dnevnik.bg",
+      "published": "2026-10-21",
+      "id": "696da755ea4d",
+      "politicians": [
+        "iotova"
+      ],
+      "fetched": "2026-10-28T19:30:09+00:00"
+    },
+    {
+      "title": "Как ще гласуват хората със зрителни увреждания според новите указания на ЦИК",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVDViM3dWRVRSQUh6YW1pd3MwRGpLV2xKSEJZTkFNcnp3cUczTXFQSFdDbkNaRkc0bGRxMXBfZEFTYUU3VjU3UFVhc2FYTzR0RGZPejA0aEdHU2pORU9GVmgyODZMYW1RNjJDZnZtWkd3Z0JRbkRmNDI4U1dkTXI0WmNmOTZjNi00NWRQZWpHenlFNUtBdmpXMWxoNE1Rd3IwLVVNMGVvN19FUFpUSXRxUlpB?oc=5",
+      "publisher": "Евроком",
+      "published": "2026-10-21",
+      "id": "3b85ed7465f4",
+      "politicians": [],
+      "fetched": "2026-10-28T19:30:10+00:00"
+    },
+    {
       "title": "Румен Радев за протестите срещу него: Искат да ни набутат във войната",
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBDNGp2NDRzZGFQNkV6WDFZTlFXVWt3cmtRNXJjUk82NlA1Y0FBcjlLY3ZkQTZFX3B5OXNr?oc=5",
@@ -14425,6 +14838,50 @@
         "iotova"
       ],
       "fetched": "2026-10-28T21:07:09+02:00"
+    },
+    {
+      "title": "Румен Радев и министри на първа копка на батериeн парк на Делян Добрев с Tesla край Твърдица",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMkZqWllyVHU5MDhtWFBVZXNZb1dYRnlPS3RWZzVqVi02cjRDR1FmbjZ6NEdQSDJlYnBKZDRmdGEwczlHTWpobmN6RFNmdnNINWRDZmtQcEplM2xUd0pDelhaemhUeE5mMVBWZVJUVy1xeGtZdGI4eXJJYURQNEhZOWtyV081NEgxSHZRSU9pejlxVm9wbDlnbVBQem12QUxoWUtDeXlKWHhTNVl4amVPSlVJeWRtRVFDX3dKU2Q1X1JDaVlFUFE?oc=5",
+      "publisher": "Mediapool.bg",
+      "published": "2026-10-20",
+      "id": "12ee9e0f23de",
+      "politicians": [
+        "radev"
+      ],
+      "fetched": "2026-10-28T19:30:05+00:00"
+    },
+    {
+      "title": "Костадин Костадинов и Петър Волгин по Нова ТВ: Ние сме за мира, а не за войната",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNbTVDT1ozYm5RRDY4eDJNdDVXRElfbzFCV253aGx3SlZfVGNsbURKWlQwcGk5RlBEYVYzUUJwOUduclN4S0pteHlkbmtaN2hKcF9QR2tiVjVmOC1LNFdhME1MNHBCNHEtNkNHaDFMZXRHRUhMZU9yYXhfQnpMWjBRU2pfSlY2enRReXBxTXlRdFBLV1hDQkctUDZueHRsQjhPYWZfa2U1cGhtcFliejBFQXJYU2NBNnBXYXNHOWYxMFBNTWVMa0dhZEhVTVg1V1ZDU2JSSg?oc=5",
+      "publisher": "БТА",
+      "published": "2026-10-20",
+      "id": "cbb666750086",
+      "politicians": [
+        "kostadinov"
+      ],
+      "fetched": "2026-10-28T19:30:08+00:00"
+    },
+    {
+      "title": "Алдаир Невеш пред нещо голямо за Левски",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBaTTVzTXdJMmtBUEVWQ040ZldmSFJKOFBUaWswSGQ5YVVYU1I3TENNOTBGZlFRTTBmdTJaRTZQYjZvTWRxUlE3X1NUNWNPeUItYkg4T3ZHdnozZFpEaE9yeFVBdEpkV0NYMmY1VU9iQm1ZbDJZYjRzTjlpTC1PN0U?oc=5",
+      "publisher": "Евроком",
+      "published": "2026-10-20",
+      "id": "7dbb87177fce",
+      "politicians": [],
+      "fetched": "2026-10-28T19:30:10+00:00"
+    },
+    {
+      "title": "Анастасия Гешева: Пактът от Мека е опит за пренареждане на Близкия изток",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdDBNSUt3ZWZ1R2tmRlhIZVk4WWc4bFk0ZXRkeXcwTzdHbnhjQ3BwRXg5ZXdhT0hVRlFWTnl3Tl9wY1pvTFBDUDNoSmFKcGxNT0ZySDh3cmJHQkxmSG9PZGRTUmp4eXdEeFJuY0lJUm9CYk5GZkU2YllQTzE3czFlY1IzU2M2aThhcUF1RkZSajBmS1FJUThFX2t0b0tycTRveWZj?oc=5",
+      "publisher": "Евроком",
+      "published": "2026-10-20",
+      "id": "73511210d5f7",
+      "politicians": [],
+      "fetched": "2026-10-28T19:30:10+00:00"
     },
     {
       "title": "Предозиране: Пеевски обяви кампания \"Щит за хората\", с която щял да пази от корупция",
