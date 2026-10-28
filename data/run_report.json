@@ -1,12 +1,12 @@
 {
-  "started": "2026-10-28T19:30:02+00:00",
+  "started": "2026-10-28T19:40:23+00:00",
   "mode": "all",
   "chat_backend": "openai",
   "fetch": {
     "ok": true,
-    "added": 69,
-    "total": 1476,
-    "seconds": 10.6
+    "added": 43,
+    "total": 1489,
+    "seconds": 11.0
   },
   "judge": {
     "ok": true,
@@ -24,10 +24,10 @@
     "added": 0,
     "seconds": 15.0
   },
-  "finished": "2026-10-28T19:30:48+00:00",
+  "finished": "2026-10-28T19:41:09+00:00",
   "build": {
     "ok": true,
-    "news_items": 1476,
+    "news_items": 1489,
     "auto_evidence": 380,
     "auto_promises": 2,
     "status_changes": 0,

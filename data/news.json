@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T19:30:12+00:00",
+  "updated": "2026-10-28T19:40:34+00:00",
   "items": [
     {
       "title": "Снимка на деня: Германските власти съветват гражданите да поддържат \"авариен пакет\" в случай на извънредни ситуации",
@@ -3399,6 +3399,16 @@
         "radev"
       ],
       "fetched": "2026-10-28T19:30:05+00:00"
+    },
+    {
+      "title": "Екоминистерството не отчита видими следи от замърсяване край Калиакра",
+      "summary": "Първоначалните огледи в района на Шабла и нос Калиакра не показват нефтени петна или видими следи от замърсяване. Това заяви Министерството на околната среда и водите в прессъобщение. Властите обаче започват мащабни лабораторни...",
+      "url": "https://www.dnevnik.bg/bulgaria/2026/10/28/4973219_ekoministerstvoto_ne_otchita_vidimi_sledi_ot/?ref=rss",
+      "publisher": "Дневник",
+      "published": "2026-10-28",
+      "id": "16f7ccf21464",
+      "politicians": [],
+      "fetched": "2026-10-28T19:40:24+00:00"
     },
     {
       "title": "Снимка на деня: \"Оксфорд Стрийт\" става пешеходна зона",
@@ -8076,6 +8086,57 @@
       "fetched": "2026-10-28T19:30:10+00:00"
     },
     {
+      "title": "Радев: Румъния посочи Русия като агресор и последваха нови атаки в Черно море",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQa2syVEVIWGlRQmdFSFhsUS1JMVhOcVh2ZnJQTlpDczB5V0poZjZXUEtfTGZOb0V6S20wVEVIMGFIYm5FbkdTNTFFWUNkWWRhdFRkemlJVEw0dkw5UjZ5VnZiTE90LWZzS3JEbWw4OFJzSHJPMFhCSlRXSjNFYXFGYVB4MDVJT2p5c3BPRkNnNkdSYzI3VUd5SWF4Ymk5QV9hVEREMEY2Z255YWJRZEhubUw5N2xRUUhqWEE?oc=5",
+      "publisher": "Vesti.bg",
+      "published": "2026-10-26",
+      "id": "ee5466b5109c",
+      "politicians": [
+        "radev"
+      ],
+      "fetched": "2026-10-28T19:40:26+00:00"
+    },
+    {
+      "title": "Илияна Йотова и Кирил Вълчев печелят с 42% на първия тур в област Ямбол",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNVhjMDVGelBJZUVrN3k4SW1PZ1ZMRmtMbWp0a0ZvYlBHcFVPNDZEdld1Z01jWWpqM3o5UWRaeGktQnVjazctTGY5Y3FCQkxBLXZ4RzNUWDlfZk9YR1NJQnh6VGx4alRFTWJtSURiN09LSk9Ld3lJR2M4YlFqTll4WXlBcWpPcG1GUGtlU0R6eldNeHJCRDhFNWRRUFJyZXVTZ0JPdGtmRzdqSE5iT0hPOXpmZmU4MmMyejBQWGduYXZiands?oc=5",
+      "publisher": "БНР Новини",
+      "published": "2026-10-26",
+      "id": "ffbf6dab439c",
+      "politicians": [
+        "iotova"
+      ],
+      "fetched": "2026-10-28T19:40:31+00:00"
+    },
+    {
+      "title": "Асен Василев: Приказките за мир на Радев и Йотова са за конкурси като „Мис Вселена“",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNGZjWmg4S3hZRmZNTUpSLWJKNmoxWFU2dlN2OGlhdHhVeTRMZG41VUdvQVVTME81LWhXaFVSSE5zNVQ5aGc3T0JNV1FXVUxRUXI1dlQzMDlmOUlTTWV2Wl90VW1JdlZETWNvTEh2Unpoc0RlcWZqbzROUVpOU0I4X3FXS2VrdjM5eUhIeVlDUlNvRHd5RjJDSzcxQWhaMEFYMTJOVFh4UmFOdlA0eUVpVg?oc=5",
+      "publisher": "Евроком",
+      "published": "2026-10-26",
+      "id": "d017ee94e0af",
+      "politicians": [
+        "radev",
+        "vassilev",
+        "iotova"
+      ],
+      "fetched": "2026-10-28T19:40:31+00:00"
+    },
+    {
+      "title": "Демографският профил на избирателите - кой избра Йотова и кой подкрепи Гюров?",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi5gRBVV95cUxOX1lZVmlrMFRnTm9xQlVCYmpUckFraE5UVldUZHJhcHdsNGFpN0lCZVZONGZqckJCYS1BeEpNclAwZmVubXVQRzdBc2hkNE1tMTFEUkFTM2NWc1lLak41ZnY2WVFkWUdITUVITWViTU5yRlRhSHJ4Znc1alQzM1hpV2ZaRDJ5TG9CZkswN0R3V2xVUGY1S1FPb1FlODFHdG1ZMGdka29XT0Zma1hxYnpSdnI1QzNEa0E0cnBhZEc5bHo5UjdJVmYwaXZiMTZldDJ1VTlkTW1ELXNwamU3TGlNTmJjQ3dOUG1JYkJZZ3VzcjRGQnhpZmRZbkxTMlRYRGFtRVFXcEdRZkozUEZndEJtUU1yYWJsMl9hbkpqb3hYY1J6ellpMHY3VWdvNEtVdldMazc1aW1DUEtNYnBVRlBUeWxQVXRaR0hBMTg3SG9mQkdac1JqSENKazBhbkxUNDM4MHFoeGlnYmE4eXJrYVF3eU9xSjl5cGQ4VUZkamtVWEZkUVI2UFJ3Z3FIQUxiemNSdUlCRTJTelZ0NlRKdktsaTd0YnVsYVRsYkRVZHhhSzlveTM3RHlldmJjMUl2ZDlpR05Kem9HQ0oyTGtidkhzdnFmZ29VZDAtcVZlRTI0UnNhbEhnLTZsaWxicDdHaUxzQTB6dHhycy1rTlgwTzZJbDNWQmZNb1Jia3lRTE00RHMtTGpVMjhJSDVFU1J2NmVEWk1FM05HTV9BS1BxU09pUi1FUWdiWi1CanZOSEExdEVIVUpKbHRPUkVyUk9tQ2I1dVNGWlhMVHRuZ1gtd21aWWRJVGczUQ?oc=5",
+      "publisher": "nova.bg",
+      "published": "2026-10-26",
+      "id": "619c0e019d65",
+      "politicians": [
+        "iotova",
+        "gyurov"
+      ],
+      "fetched": "2026-10-28T19:40:32+00:00"
+    },
+    {
       "title": "Премиерът Румен Радев призова за масово гласуване на президентските избори: Легитимността на нашите институции произтича от нашия вот",
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNb0tGVTZKZFg4Wi1mQnlnMEktMlBVdEM5MDNhTHktSGtKeXVnRkM0N0U4MEJlMTRWcWlYc2tWLXF6aUtBWjVIZExrbVJQdElFQUx1WTFtM3pCMFFwc25oMk0xb0pjVElWUGs1ZE14NHdjSHppNEh4NGVRdGIyZlR2X3pfc3JJQ3czRDNkYUhURUtSWnE0SThzMnFBWUZLRFVUYzVqWFZ1YkE2azRkekptbGt5cUwwWHZMMXFJWlNWOVp4RUdtTVNEbG40bWlPX08zYjYzU09JS3AwRHJfbHlhV3g1T1ZlZTBVZFpRaUcwQzNvcGtpeTRZNmNUaDVIWlA5a0trTXNMQlM3Zw?oc=5",
@@ -10984,6 +11045,40 @@
       "fetched": "2026-10-28T19:30:09+00:00"
     },
     {
+      "title": "Първа реакция от ИК на Йотова: Трябва да има пълна мобилизация преди балотажа",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNnY2ZnJjYnhkVFo2ZW5LcVJBZjRTQXBaV29VOEFhQmQtZlZnTkZ3eF9WLUVrYzJSQXg1NnpsSUV3MFBqTklvZXZHQ2VmemRyN3VIWmwwb19ES3BtaWFYbHNFYVdfZ0tETTBKV2FWemhYNUZjTldkWXBWRDdocnZ2Q1pDNWxXbTRmRV9HeDNrWmtoRklUS1UtRGtKVUhMZERVSXFlY1JpT2lVMElSV0Nn?oc=5",
+      "publisher": "Евроком",
+      "published": "2026-10-25",
+      "id": "11624a69f941",
+      "politicians": [
+        "iotova"
+      ],
+      "fetched": "2026-10-28T19:40:31+00:00"
+    },
+    {
+      "title": "Льо Пен обеща „национален ренесанс“ и възстановяване на реда във Франция",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOY3FGNEZOaEVwZmtRSjQyNUUxM3psYnJfSU9yUWFBMHFING9Tc0l4c21CeUp1YjJVR2I5ejBvdDBwUlhaTkREOElPZTIyd3ptWkstbFZCYzJGVHNIajBKWjd3eHRjc1dORE1WdXN1dUhPRnpOZktBY3JZZUU0ZmQ3cnNJT3RPVzEzY2luajNZRDhQR3d2Y2xGT3ZhZ3ZoZVJCNzF2TERRbjNndjQ?oc=5",
+      "publisher": "Евроком",
+      "published": "2026-10-25",
+      "id": "53b3a2bf729a",
+      "politicians": [],
+      "fetched": "2026-10-28T19:40:31+00:00"
+    },
+    {
+      "title": "Притиснаха я: Журналист закова Йотова с неудобен въпрос",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWEVWWGw5dnQwWEVldDdrb0NORGNxQ1ZtaG1MMlFZNGVMTXhVVkdWUWRtMDBfekNXQTNOaHhRaDRjVnREb3pKRF9uZE9PUEpDanJzZ0JLQlVzRVJBRE81RkptZUJySzhnUVh5U2ZFbUloN09Db1lOaTJ1VUE5UWNBN3A3eElVWjFITzkwcmNJLXV3M3hZd29CS0s0amVoVDlUSVNQOA?oc=5",
+      "publisher": "Blitz.bg",
+      "published": "2026-10-25",
+      "id": "488c0fad0013",
+      "politicians": [
+        "iotova"
+      ],
+      "fetched": "2026-10-28T19:40:31+00:00"
+    },
+    {
       "title": "Днес прокурорите избират своите четирима във ВСС",
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBGaDBDajhOaXNSQXZ0UlFLSXRKUGJ1elhhUC02WVdRbGNGS216QUVGYWxmV3FXMlhLSEphaTc0TDFQRnZMSm82T2ZWYklCTHdMeWcwaGw0UmFxQXlZTE41dzl0ajYtbVJSZEc3QVZGaVRYVGNlR3pINzFn?oc=5",
@@ -11611,6 +11706,28 @@
       "id": "02d675e74bc2",
       "politicians": [],
       "fetched": "2026-10-28T19:30:10+00:00"
+    },
+    {
+      "title": "Йотова разкри критична ситуация с кола на НСО",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSVgzSnc5a2N4Wl9MNHRKNzcwd09fT3JlaXg5TE5HUXhhMWZwT0JBR0kxUS1RS205emYycEJSaDJKOTh0N0JmNmt0WWpFa1FGUWxsbGNKM3FWZUFENFkxTUJDLUhqUDh4dUtvUE1fa0pLT1ZBOUU2TnRRSm1ub1Zac3M1Z1NJYzZhWnZXMHZxU2VPdXo0dG5GMko5Z2JLUTFN?oc=5",
+      "publisher": "Стандарт нюз",
+      "published": "2026-10-23",
+      "id": "5a8fec986183",
+      "politicians": [
+        "iotova"
+      ],
+      "fetched": "2026-10-28T19:40:31+00:00"
+    },
+    {
+      "title": "Мелания Тръмп договори локално примирие между Русия и Украйна",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMFZGQXFpLUxBX0I4ZjdPSzFLYmdUYUZNMXh4OThkMEdXQ2RmbjZuMEJMWnExWkNMWHEtdFJ4Vzk1WW1GcXFoYWZSZlRBMkc3VEdmQmFLRFdSZnZSbjdPZWotN0VmeFI3STEzWlFBYTBwbWljZHE2T3JLS3BQbWF0NWVCUER3LVVsMHB6dHNscklsZ0hub3A3NVVtNA?oc=5",
+      "publisher": "Евроком",
+      "published": "2026-10-23",
+      "id": "8eebad826a08",
+      "politicians": [],
+      "fetched": "2026-10-28T19:40:31+00:00"
     },
     {
       "title": "Румен Радев: ЕП се използва от български евродепутати с ограничена политическа легитимност в собствената им страна",
@@ -14358,6 +14475,16 @@
       "fetched": "2026-10-28T19:30:10+00:00"
     },
     {
+      "title": "Нова военна мисия в Черно море? НАТО изпраща самолети и специализирани екипи",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPRURGZ0h2aHppaDkyX3M4aTVnaFJEYmFNYnpwamJDZHNGUHZ3ZkozbFpIcVBtOVpjVUxGaFNfS3pHNFlaUzdhdGU2cUVoSG1rYm1ZOTFDSExHaGFIV0p1VXNFXzl2ZzN6RWJCdFFXbFd4S1FmSHZvczV5MTM0WXJKWDlVZzZhb1EtRzNBbGRyMTdxOFBJclNBTnlWclBaaVhwOVA5SHFqUk1GdzZ2OEVpcw?oc=5",
+      "publisher": "Евроком",
+      "published": "2026-10-21",
+      "id": "9dfce2269e44",
+      "politicians": [],
+      "fetched": "2026-10-28T19:40:31+00:00"
+    },
+    {
       "title": "Румен Радев за протестите срещу него: Искат да ни набутат във войната",
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBDNGp2NDRzZGFQNkV6WDFZTlFXVWt3cmtRNXJjUk82NlA1Y0FBcjlLY3ZkQTZFX3B5OXNr?oc=5",
@@ -14882,6 +15009,28 @@
       "id": "73511210d5f7",
       "politicians": [],
       "fetched": "2026-10-28T19:30:10+00:00"
+    },
+    {
+      "title": "Илияна Йотова изпрати 35-ата българска антарктическа експедиция",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQU2dHU0FHV0wtREluUmtLUGNxWS1LR2Y1ZlBfS0oxTnhFSG80U0ZPWm5uUUJYcFVabG1TanZkbTV3SXo1Y2J1clJWSldNQi1HcFFWT1JQQ2E0LUZaSkVRdklZM21Ka0VLeDVTQ1Y0bmRpeFF1a1l1d2NKYkdEaUp2RXlmZmlFVTlyUWNXUmVlRndqNDNpdENqTW9hU214cFE?oc=5",
+      "publisher": "Евроком",
+      "published": "2026-10-20",
+      "id": "4d091d5ca25a",
+      "politicians": [
+        "iotova"
+      ],
+      "fetched": "2026-10-28T19:40:31+00:00"
+    },
+    {
+      "title": "МЗХ започва мащабно преброяване на земеделските стопанства през 2026 година",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNblRHVzJNZVRycEVRSUtrNjNUdmZxQzZQY2xxVnNUSzhjM2ZkWjNOaGE3Nmo1MzNPNDEySHEtRUIwMlhEd3BVNEFnZEJSaHZvWXJOQVFJLWhvLTBJRDFmTzFub3lseEpOLW4xRWVXdmZpemF2T2VrRkhlWm1xZklCSEFUcHNMZW5neXRDdVhqcC1xck1OSVFicnVmNko3X3ZaVk4weWpfd3pXclA1QWxV?oc=5",
+      "publisher": "Евроком",
+      "published": "2026-10-20",
+      "id": "e74e5e31bdf7",
+      "politicians": [],
+      "fetched": "2026-10-28T19:40:31+00:00"
     },
     {
       "title": "Предозиране: Пеевски обяви кампания \"Щит за хората\", с която щял да пази от корупция",
