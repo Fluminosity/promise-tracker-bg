@@ -1,0 +1,59 @@
+name: Weekly update
+
+# Every Monday: fetch fresh headlines, let an AI judge them, apply the fixed verdict rules,
+# commit the changed data and redeploy the site. No PC and no secret needed: it uses GitHub's own
+# GITHUB_TOKEN and the free GitHub Models API as the judge.
+on:
+  schedule:
+    - cron: "30 5 * * 1"   # Monday 05:30 UTC = 07:30 in Sofia (winter time)
+  workflow_dispatch:
+
+permissions:
+  contents: write   # commit the updated data
+  models: read      # call the GitHub Models API
+  actions: write    # start the Pages deploy afterwards
+
+concurrency:
+  group: weekly-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Fetch, judge, apply rules, rebuild
+        env:
+          PT_CHAT_BACKEND: openai
+          PT_MATCHER: keywords          # no Ollama on the runner
+          PT_MAX_PAIRS: "100"           # free tier: ~150 requests per day
+          PT_MAX_DISCOVER: "25"
+          PT_MIN_INTERVAL: "5"          # stay under ~15 requests per minute
+          JUDGE_BASE_URL: https://models.github.ai/inference
+          JUDGE_API_KEY: ${{ secrets.GITHUB_TOKEN }}
+          JUDGE_MODEL: openai/gpt-4.1-mini
+        run: python pipeline/run_all.py
+
+      - name: Commit changes and redeploy
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data site
+          if git diff --cached --quiet; then
+            echo "Nothing changed this week."
+          else
+            git commit -m "Weekly update $(date -u +%F)"
+            git push
+            gh workflow run pages.yml
+          fi

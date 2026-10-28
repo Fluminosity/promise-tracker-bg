@@ -25,6 +25,7 @@ SITE = ROOT / "site"
 LOGS = ROOT / "logs"
 
 OLLAMA = os.environ.get("OLLAMA_HOST_URL", "http://localhost:11434")
+_LAST_CALL = [0.0]
 UA = "Mozilla/5.0 (compatible; PromiseTracker/0.1; hobby project)"
 
 
@@ -156,16 +157,37 @@ def _chat_openai(model: str, system: str, user: str, schema: dict, timeout: int)
         ],
     }
     headers = {"Content-Type": "application/json", **({"Authorization": f"Bearer {key}"} if key else {})}
-    try:
-        req = urllib.request.Request(f"{base}/chat/completions", data=json.dumps(payload).encode("utf-8"), headers=headers)
-        with urllib.request.urlopen(req, timeout=timeout) as resp:
-            text = json.loads(resp.read().decode("utf-8"))["choices"][0]["message"]["content"]
-        text = re.sub(r"<think>.*?</think>", "", text, flags=re.S).strip()
-        text = re.sub(r"^```(?:json)?\s*|\s*```$", "", text)
-        return json.loads(text)
-    except Exception as e:  # noqa: BLE001
-        log(f"  chat failed: {type(e).__name__}: {e}")
-        return None
+    gap = float(os.environ.get("PT_MIN_INTERVAL", "0"))  # free APIs cap requests per minute
+    for attempt in range(4):
+        pause = gap - (time.time() - _LAST_CALL[0])
+        if pause > 0:
+            time.sleep(pause)
+        _LAST_CALL[0] = time.time()
+        try:
+            req = urllib.request.Request(f"{base}/chat/completions", data=json.dumps(payload).encode("utf-8"), headers=headers)
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
+                text = json.loads(resp.read().decode("utf-8"))["choices"][0]["message"]["content"]
+            text = re.sub(r"<think>.*?</think>", "", text, flags=re.S).strip()
+            text = re.sub(r"^```(?:json)?\s*|\s*```$", "", text)
+            return json.loads(text)
+        except urllib.error.HTTPError as e:
+            retry_after = int(e.headers.get("Retry-After") or 0)
+            if e.code in (429, 500, 502, 503) and attempt < 3 and retry_after <= 300:
+                delay = min(retry_after or 15 * (attempt + 1), 90)
+                log(f"  API busy (HTTP {e.code}), waiting {delay}s")
+                time.sleep(delay)
+                continue
+            log(f"  chat failed: HTTP {e.code} {e.read()[:160].decode('utf-8', 'replace')}")  # long Retry-After = daily cap reached
+            return None
+        except Exception as e:  # noqa: BLE001
+            log(f"  chat failed: {type(e).__name__}: {e}")
+            return None
+    return None
+
+
+def effective_chat_model(models: dict) -> str:
+    """The model name that actually judged (JUDGE_MODEL overrides the config for the openai backend)."""
+    return os.environ.get("JUDGE_MODEL", models["chat"]) if backend()["chat"] == "openai" else models["chat"]
 
 
 def _chat_ollama(model: str, system: str, user: str, schema: dict, timeout: int) -> dict | None:

@@ -6,10 +6,11 @@ rewrites what a politician said.
 """
 from __future__ import annotations
 
+import os
 import re
 
-from common import (DATA, chat_json, item_text, load_json, log, mentions, norm,
-                    save_json)
+from common import (DATA, chat_json, effective_chat_model, item_text, load_json, log,
+                    mentions, norm, save_json)
 
 PROMISES = DATA / "promises.json"
 NEWS = DATA / "news.json"
@@ -59,6 +60,7 @@ def _prompt(it: dict) -> str:
 
 
 def candidates(news: list[dict], seen: set, cap: int = 100) -> list[dict]:
+    cap = int(os.environ.get("PT_MAX_DISCOVER", cap))  # free APIs allow only so many calls a day
     return [it for it in news if it["id"] not in seen and it.get("politicians") and PROMISE_HINT.search(it["title"])][:cap]
 
 
@@ -139,15 +141,21 @@ def run(models: dict, limits: dict, thresholds: dict, matcher) -> dict:
     people, by_id, promises, news, seen = _load()
     cands = candidates(news, seen)
     log(f"discover: {len(cands)} headlines look like pledges")
-    added = 0
+    added = fails = 0
+    label = effective_chat_model(models)
     for it in cands:
         if added >= limits["max_new_promises_per_run"]:
             break
         res = chat_json(models["chat"], SYSTEM + _context(people, promises), _prompt(it), _schema(list(by_id), promises))
         if res is None:
+            fails += 1
+            if fails >= 5:
+                log("discover: the judge failed 5 times in a row - stopping; retried next run")
+                break
             continue  # model error -> retry next run
+        fails = 0
         seen.add(it["id"])
-        if evaluate(it, res, by_id, promises, thresholds, matcher, models["chat"]) == "added":
+        if evaluate(it, res, by_id, promises, thresholds, matcher, label) == "added":
             added += 1
             log(f"  + {by_id[res['speaker']]['name']}: {it['title'][:90]}")
     save_json(PROMISES, promises)

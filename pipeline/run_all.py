@@ -23,8 +23,8 @@ import fetch  # noqa: E402
 import judge  # noqa: E402
 import match  # noqa: E402
 import verdict  # noqa: E402
-from common import (DATA, LOGS, backend, ensure_ollama, load_json, log,  # noqa: E402
-                    now_iso, save_json, today)
+from common import (DATA, LOGS, backend, effective_chat_model, ensure_ollama,  # noqa: E402
+                    load_json, log, now_iso, save_json, today)
 
 
 class Tee:
@@ -97,7 +97,7 @@ def main() -> None:
             log("external judge: now let the agent write data/work/answers.json, then run: python pipeline/run_all.py apply")
         elif use_ai and (chat == "openai" or ensure_ollama()):
             m = _matcher(cfg)
-            label = cfg["models"]["chat"]
+            label = effective_chat_model(cfg["models"])
             step(report, "judge", lambda: judge.run(cfg["models"], cfg["limits"], cfg["thresholds"], m))
             step(report, "verdict", lambda: verdict.run(cfg["thresholds"], label))
             step(report, "discover", lambda: discover.run(cfg["models"], cfg["limits"], cfg["thresholds"], m))
@@ -105,7 +105,7 @@ def main() -> None:
             log("AI steps skipped (--no-ai given or Ollama unavailable)")
             report["ai"] = "skipped"
     report["finished"] = now_iso()
-    step(report, "build", lambda: build.run(cfg["models"], report))
+    step(report, "build", lambda: build.run({**cfg["models"], "chat": effective_chat_model(cfg["models"])}, report))
     save_json(DATA / "run_report.json", report)
     log("=== update finished ===")
 

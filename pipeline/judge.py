@@ -15,8 +15,8 @@ import os
 
 import numpy as np
 
-from common import (DATA, chat_json, item_text, load_json, log, mentions, norm,
-                    now_iso, save_json)
+from common import (DATA, chat_json, effective_chat_model, item_text, load_json, log,
+                    mentions, norm, now_iso, save_json)
 
 JUDGED = DATA / "judged.json"          # pair keys already processed
 NEWS = DATA / "news.json"
@@ -167,22 +167,28 @@ def run(models: dict, limits: dict, thresholds: dict, matcher) -> dict:
     news, promises, people, judged, by_id = _load()
     pairs = collect(matcher, news, promises, judged, limits, thresholds)
     log(f"judge: {len(pairs)} candidate headline/promise pairs to read ({matcher.kind} matcher)")
-    attached = 0
+    attached = fails = 0
+    label = effective_chat_model(models)
     for n, (sim, key, pid, item) in enumerate(pairs, 1):
         promise = by_id[pid]
         res = chat_json(models["chat"], SYSTEM, build_prompt(promise, people[promise["politician"]], item), SCHEMA)
         if res is None:
+            fails += 1
+            if fails >= 5:
+                log("judge: the judge failed 5 times in a row - stopping; unjudged pairs are retried next run")
+                break
             continue  # model error -> leave unjudged so it is retried next run
+        fails = 0
         judged.add(key)
-        attached += settle(promise, item, sim, res, people, thresholds, models["chat"])
+        attached += settle(promise, item, sim, res, people, thresholds, label)
         if n % 25 == 0:
             log(f"  ...{n}/{len(pairs)} read, {attached} attached")
             save_json(PROMISES, promises)
             save_json(JUDGED, sorted(judged))
     save_json(PROMISES, promises)
     save_json(JUDGED, sorted(judged))
-    log(f"judge: attached {attached} evidence items, discarded {len(pairs) - attached}")
-    return {"pairs": len(pairs), "attached": attached, "discarded": len(pairs) - attached}
+    log(f"judge: attached {attached} evidence items out of {len(pairs)} candidate pairs")
+    return {"pairs": len(pairs), "attached": attached}
 
 
 def apply_answers(answers: dict, tasks: list[dict], thresholds: dict, label: str) -> dict:
