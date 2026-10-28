@@ -166,10 +166,25 @@ def _chat_openai(model: str, system: str, user: str, schema: dict, timeout: int)
         try:
             req = urllib.request.Request(f"{base}/chat/completions", data=json.dumps(payload).encode("utf-8"), headers=headers)
             with urllib.request.urlopen(req, timeout=timeout) as resp:
-                text = json.loads(resp.read().decode("utf-8"))["choices"][0]["message"]["content"]
+                status, raw = resp.status, resp.read().decode("utf-8", "replace")
+            try:
+                text = json.loads(raw)["choices"][0]["message"]["content"] or ""
+            except (ValueError, KeyError, IndexError, TypeError):
+                log(f"  unexpected API reply (HTTP {status}): {raw[:300]!r}")
+                return None
             text = re.sub(r"<think>.*?</think>", "", text, flags=re.S).strip()
             text = re.sub(r"^```(?:json)?\s*|\s*```$", "", text)
-            return json.loads(text)
+            try:
+                return json.loads(text)
+            except ValueError:
+                found = re.search(r"\{.*\}", text, flags=re.S)  # tolerate prose around the JSON object
+                if found:
+                    try:
+                        return json.loads(found.group(0))
+                    except ValueError:
+                        pass
+                log(f"  reply was not JSON: {text[:300]!r}")
+                return None
         except urllib.error.HTTPError as e:
             retry_after = int(e.headers.get("Retry-After") or 0)
             if e.code in (429, 500, 502, 503) and attempt < 3 and retry_after <= 300:
