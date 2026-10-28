@@ -1,5 +1,8 @@
 # Weekly update on Hermes (cloud agent)
 
+> **Simpler option that needs no setup from you:** `.github/workflows/weekly.yml` already runs the same update every Monday
+> on GitHub's servers (see README). Use this Hermes route only if you want a stronger judge than GitHub's free model.
+
 Goal: the update keeps running while your PC is off. Hermes' built-in cron scheduler starts a fresh agent session once a
 week; that agent is the **judge** (its own, stronger model reads the headline/promise pairs), so no GPU and no extra API key.
 

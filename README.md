@@ -34,6 +34,12 @@ Who judges the headlines (`backend.chat` in `data/sources.json`, or env `PT_CHAT
 
 `matcher: auto` uses embeddings when Ollama is available and a dependency-free keyword matcher otherwise.
 
+**On GitHub (no PC, no Hermes):** `.github/workflows/weekly.yml` runs the whole update every Monday with the `openai`
+backend pointed at the free GitHub Models API (`JUDGE_API_KEY` is the built-in `GITHUB_TOKEN`, no secret to create).
+It commits the changed `data/` and `site/data.js` and redeploys Pages. Run it by hand: Actions tab -> "Weekly update" -> Run workflow.
+Free-tier limits are low (about 150 requests/day), so it judges at most 100 pairs + 25 discoveries a week and stops
+politely if the API says no; unjudged pairs are retried the following week.
+
 Weekly on this PC (Windows): `powershell -ExecutionPolicy Bypass -File .\schedule.ps1` (not needed if Hermes runs it).
 
 ## How verdicts are made (no human review)
